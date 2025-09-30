@@ -1,0 +1,129 @@
+{
+  "var": [
+    {
+      "type": "verb",
+      "description": "was/were (past tense of vara)",
+      "group": "Irregular verb",
+      "forms": {
+        "infinitive": "vara",
+        "present": "är",
+        "past": "var",
+        "supine": "varit"
+      }
+    },
+    {
+      "type": "adverb",
+      "description": "where (interrogative)",
+      "forms": {
+        "base": "var"
+      }
+    },
+    {
+      "type": "pronoun",
+      "description": "each/every",
+      "forms": {
+        "base": "var",
+        "neuter": "vart",
+        "plural": "vara"
+      }
+    }
+  ],
+  "får": [
+    {
+      "type": "verb",
+      "description": "gets/get/may (present tense of få)",
+      "group": "Irregular verb",
+      "forms": {
+        "infinitive": "få",
+        "present": "får",
+        "past": "fick",
+        "supine": "fått"
+      }
+    },
+    {
+      "type": "noun",
+      "gender": "ett",
+      "description": "sheep",
+      "group": "Declension 5",
+      "forms": ["får", "fåret", "får", "fåren"]
+    }
+  ],
+  "kan": [
+    {
+      "type": "verb",
+      "description": "can/able to (present tense of kunna)",
+      "group": "Modal verb",
+      "forms": {
+        "infinitive": "kunna",
+        "present": "kan",
+        "past": "kunde",
+        "supine": "kunnat"
+      }
+    },
+    {
+      "type": "noun",
+      "gender": "en",
+      "description": "can/tin (container)",
+      "group": "Declension 2",
+      "forms": ["kan", "kannen", "kanor", "kanorna"]
+    }
+  ],
+  "spring": [
+    {
+      "type": "verb",
+      "description": "run! (imperative of springa)",
+      "group": "Strong verb",
+      "forms": {
+        "infinitive": "springa",
+        "present": "springer",
+        "past": "sprang",
+        "supine": "sprungit",
+        "imperative": "spring"
+      }
+    },
+    {
+      "type": "noun",
+      "gender": "ett",
+      "description": "crack/fissure",
+      "group": "Declension 5",
+      "forms": ["spring", "sprinGet", "spring", "springen"]
+    }
+  ],
+  "till": [
+    {
+      "type": "preposition",
+      "description": "to/until",
+      "forms": {
+        "base": "till"
+      }
+    },
+    {
+      "type": "adverb",
+      "description": "closed/shut",
+      "forms": {
+        "base": "till"
+      }
+    }
+  ],
+  "by": [
+    {
+      "type": "noun",
+      "gender": "en",
+      "description": "village",
+      "group": "Declension 2",
+      "forms": ["by", "byn", "byar", "byarna"]
+    },
+    {
+      "type": "verb",
+      "description": "change/exchange (imperative of byta)",
+      "group": "Group 2",
+      "forms": {
+        "infinitive": "byta",
+        "present": "byter",
+        "past": "bytte",
+        "supine": "bytt",
+        "imperative": "byt"
+      }
+    }
+  ]
+}
