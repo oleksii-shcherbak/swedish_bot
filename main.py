@@ -209,9 +209,13 @@ class SwedishBot:
     async def handle_message(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         """Handle text messages (word lookups)."""
         word = update.message.text.strip()
+        user = update.effective_user
+        
+        # Track user
+        self._track_user(user)
 
         # Log the query
-        logger.info(f"User {update.effective_user.id} queried: {word}")
+        logger.info(f"User {user.id} queried: {word}")
 
         # Look up word
         result = dictionary.lookup(word)
@@ -391,6 +395,42 @@ class SwedishBot:
                 "Sorry, there was an error saving your report. "
                 "Please contact @oleksii_shcherbak33 directly."
             )
+
+    def _track_user(self, user):
+        """Track user for analytics."""
+        users_path = os.path.join(
+            os.path.dirname(__file__),
+            'data',
+            'users.json'
+        )
+        
+        try:
+            # Load existing users
+            if os.path.exists(users_path):
+                with open(users_path, 'r', encoding='utf-8') as f:
+                    users = json.load(f)
+            else:
+                users = []
+            
+            # Check if user already tracked
+            user_ids = [u['user_id'] for u in users]
+            if user.id not in user_ids:
+                from datetime import datetime
+                users.append({
+                    'user_id': user.id,
+                    'username': user.username,
+                    'first_name': user.first_name,
+                    'last_name': user.last_name,
+                    'first_seen': datetime.now().isoformat()
+                })
+                
+                # Save
+                with open(users_path, 'w', encoding='utf-8') as f:
+                    json.dump(users, f, ensure_ascii=False, indent=2)
+                    
+                logger.info(f"New user tracked: {user.id} (@{user.username})")
+        except Exception as e:
+            logger.error(f"Error tracking user: {e}")
 
     async def set_commands(self, application: Application):
         """Set bot commands for the menu."""

@@ -114,5 +114,9 @@ __pycache__/
 # Large source data (not needed on server)
 data/saldo.xml
 
+# User data (privacy)
+data/users.json
+data/reported_words.json
+
 # Logs
 *.log
