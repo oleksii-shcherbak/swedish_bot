@@ -227,7 +227,6 @@ class SwedishBot:
                 await update.message.reply_text("No issues reported yet.")
                 return
             
-            # Get unique users
             users_map = {}
             for report in reports:
                 user_id = report['user_id']
@@ -239,20 +238,13 @@ class SwedishBot:
                     }
                 users_map[user_id]['reports'].append(report['word'])
             
-            # Format list
-            user_list = f"👥 *Users Who Reported Issues* ({len(users_map)} total)
-
-"
+            user_list = f"👥 *Users Who Reported Issues* ({len(users_map)} total)\n\n"
             for user_id, data in users_map.items():
                 username = f"@{data['username']}" if data['username'] else "no username"
                 user_list += (
-                    f"• {data['first_name']} ({username})
-"
-                    f"  Reports: {len(data['reports'])} words
-"
-                    f"  Words: {', '.join(data['reports'][:5])}
-
-"
+                    f"• {data['first_name']} ({username})\n"
+                    f"  Reports: {len(data['reports'])} words\n"
+                    f"  Words: {', '.join(data['reports'][:5])}\n\n"
                 )
             
             await update.message.reply_text(user_list, parse_mode='Markdown')
@@ -260,7 +252,229 @@ class SwedishBot:
         except Exception as e:
             await update.message.reply_text(f"Error: {e}")
 
-    async def set_commands    async def set_commands(self, application: Application):
+    async def handle_message(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """Handle text messages (word lookups)."""
+        word = update.message.text.strip()
+
+        # Log the query
+        logger.info(f"User {update.effective_user.id} queried: {word}")
+
+        # Look up word
+        result = dictionary.lookup(word)
+
+        if result is None:
+            # Word not found
+            suggestions = dictionary.get_suggestions(word, limit=5)
+
+            not_found_msg = f"❌ Word '*{word}*' not found.\n\n"
+
+            if suggestions:
+                not_found_msg += "*Did you mean:*\n"
+                for suggestion in suggestions:
+                    not_found_msg += f"• `{suggestion}`\n"
+            else:
+                not_found_msg += (
+                    "The dictionary contains 315,000+ Swedish words.\n"
+                    "Please check spelling and try again.\n\n"
+                    "Note: Some very rare or archaic words\n"
+                    "might not be included."
+                )
+
+            # Add report button for missing words too
+            keyboard = [[
+                InlineKeyboardButton("🚩 Report Missing Word", callback_data=f"report:{word}")
+            ]]
+            reply_markup = InlineKeyboardMarkup(keyboard)
+
+            await update.message.reply_text(
+                not_found_msg,
+                parse_mode='Markdown',
+                reply_markup=reply_markup
+            )
+            return
+
+        # Check if word is ambiguous
+        if result.get('ambiguous'):
+            await self.show_meaning_options(update, result)
+            return
+
+        # Format word card
+        card = dictionary.format_word_card(result['data'], result['word'])
+        
+        # Add report button
+        keyboard = [[
+            InlineKeyboardButton("🚩 Report Issue", callback_data=f"report:{word}")
+        ]]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        
+        # Send with button
+        await update.message.reply_text(
+            card, 
+            parse_mode='Markdown',
+            reply_markup=reply_markup
+        )
+
+    async def show_meaning_options(self, update: Update, result: Dict[str, Any]):
+        """Show interactive buttons for ambiguous words."""
+        word = result['word']
+        meanings = result['meanings']
+
+        message = f"📘 *{word.upper()}*\n\n"
+        message += "This word has multiple meanings. Please choose:\n\n"
+
+        # Create inline keyboard with meaning options
+        keyboard = []
+        for idx, meaning in enumerate(meanings):
+            type_emoji = dictionary._get_type_emoji(meaning['type'])
+            description = meaning.get('description', meaning['type'])
+            button_text = f"{type_emoji} {description}"
+            keyboard.append([
+                InlineKeyboardButton(
+                    button_text,
+                    callback_data=f"meaning:{word}:{idx}"
+                )
+            ])
+
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        await update.message.reply_text(
+            message,
+            reply_markup=reply_markup,
+            parse_mode='Markdown'
+        )
+
+    async def handle_meaning_selection(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """Handle selection of meaning for ambiguous words."""
+        query = update.callback_query
+        await query.answer()
+
+        # Parse callback data
+        _, word, meaning_idx = query.data.split(':')
+        meaning_idx = int(meaning_idx)
+
+        # Get the selected meaning
+        result = dictionary.lookup(word)
+        if not result or not result.get('ambiguous'):
+            await query.edit_message_text("Error: Word data not found.")
+            return
+
+        selected_meaning = result['meanings'][meaning_idx]
+
+        # Format and display the selected meaning
+        card = dictionary.format_word_card(selected_meaning, word)
+        
+        # Add report button to ambiguous words too
+        keyboard = [[
+            InlineKeyboardButton("🚩 Report Issue", callback_data=f"report:{word}")
+        ]]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        
+        await query.edit_message_text(
+            card, 
+            parse_mode='Markdown',
+            reply_markup=reply_markup
+        )
+
+    async def handle_report(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """Handle word issue reports."""
+        query = update.callback_query
+        await query.answer("Thank you for reporting!")
+
+        # Parse callback data
+        _, word = query.data.split(':', 1)
+        
+        # Log the report
+        user = update.effective_user
+        user_info = {
+            'user_id': user.id,
+            'username': user.username,
+            'first_name': user.first_name,
+            'word': word,
+            'timestamp': update.callback_query.message.date.isoformat()
+        }
+        
+        # Save to reported_words.json
+        reported_path = os.path.join(
+            os.path.dirname(__file__),
+            'data',
+            'reported_words.json'
+        )
+        
+        try:
+            # Load existing reports
+            if os.path.exists(reported_path):
+                with open(reported_path, 'r', encoding='utf-8') as f:
+                    reports = json.load(f)
+            else:
+                reports = []
+            
+            # Add new report
+            reports.append(user_info)
+            
+            # Save updated reports
+            with open(reported_path, 'w', encoding='utf-8') as f:
+                json.dump(reports, f, ensure_ascii=False, indent=2)
+            
+            logger.info(f"User {user.id} reported word: {word}")
+            
+            # Update message to show report was received
+            await query.edit_message_reply_markup(
+                reply_markup=InlineKeyboardMarkup([[
+                    InlineKeyboardButton("✅ Reported", callback_data="noop")
+                ]])
+            )
+            
+            # Send confirmation
+            confirmation = (
+                f"✅ Thank you for reporting '*{word}*'!\n\n"
+                "Your feedback helps improve the bot.\n"
+                "I'll review this word and update it if needed."
+            )
+            await query.message.reply_text(confirmation, parse_mode='Markdown')
+            
+        except Exception as e:
+            logger.error(f"Error saving report: {e}")
+            await query.message.reply_text(
+                "Sorry, there was an error saving your report. "
+                "Please contact @oleksii_shcherbak33 directly."
+            )
+
+    def _track_user(self, user):
+        """Track user for analytics."""
+        users_path = os.path.join(
+            os.path.dirname(__file__),
+            'data',
+            'users.json'
+        )
+        
+        try:
+            # Load existing users
+            if os.path.exists(users_path):
+                with open(users_path, 'r', encoding='utf-8') as f:
+                    users = json.load(f)
+            else:
+                users = []
+            
+            # Check if user already tracked
+            user_ids = [u['user_id'] for u in users]
+            if user.id not in user_ids:
+                from datetime import datetime
+                users.append({
+                    'user_id': user.id,
+                    'username': user.username,
+                    'first_name': user.first_name,
+                    'last_name': user.last_name,
+                    'first_seen': datetime.now().isoformat()
+                })
+                
+                # Save
+                with open(users_path, 'w', encoding='utf-8') as f:
+                    json.dump(users, f, ensure_ascii=False, indent=2)
+                    
+                logger.info(f"New user tracked: {user.id} (@{user.username})")
+        except Exception as e:
+            logger.error(f"Error tracking user: {e}")
+
+    async def set_commands(self, application: Application):
         """Set bot commands for the menu."""
         commands = [
             BotCommand("start", "Start the bot"),
