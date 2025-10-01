@@ -51,6 +51,13 @@ class SwedishDictionary:
             'data',
             'ordinal_numbers.json'
         )
+        
+        strong_verbs_path = os.path.join(
+            os.path.dirname(__file__),
+            '..',
+            'data',
+            'strong_verbs.json'
+        )
 
         try:
             # Check if compressed
@@ -90,6 +97,18 @@ class SwedishDictionary:
         except json.JSONDecodeError as e:
             logger.error(f"Error parsing ordinal numbers: {e}")
             self.ordinals = {}
+        
+        # Load strong verbs
+        try:
+            with open(strong_verbs_path, 'r', encoding='utf-8') as f:
+                self.strong_verbs = json.load(f)
+            logger.info(f"Loaded {len(self.strong_verbs)} strong/modal verbs")
+        except FileNotFoundError:
+            logger.warning(f"Strong verbs file not found: {strong_verbs_path}")
+            self.strong_verbs = {}
+        except json.JSONDecodeError as e:
+            logger.error(f"Error parsing strong verbs: {e}")
+            self.strong_verbs = {}
 
     def lookup(self, word: str) -> Optional[Dict[str, Any]]:
         """
@@ -103,7 +122,15 @@ class SwedishDictionary:
         """
         word = word.lower().strip()
         
-        # Check if word is ambiguous
+        # Priority 1: Check strong verbs override first
+        if word in self.strong_verbs:
+            return {
+                'ambiguous': False,
+                'data': self.strong_verbs[word],
+                'word': word
+            }
+        
+        # Priority 2: Check if word is ambiguous
         if word in self.ambiguous_words:
             return {
                 'ambiguous': True,
@@ -111,6 +138,7 @@ class SwedishDictionary:
                 'word': word
             }
         
+        # Priority 3: Normal dictionary lookup
         result = self.data.get(word)
 
         if result is None:

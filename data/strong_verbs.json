@@ -1,0 +1,192 @@
+{
+  "skriva": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "skriva",
+      "present": "skriver",
+      "past": "skrev",
+      "supine": "skrivit"
+    }
+  },
+  "dricka": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "dricka",
+      "present": "dricker",
+      "past": "drack",
+      "supine": "druckit"
+    }
+  },
+  "ta": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "ta",
+      "present": "tar",
+      "past": "tog",
+      "supine": "tagit"
+    }
+  },
+  "ge": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "ge",
+      "present": "ger",
+      "past": "gav",
+      "supine": "gett"
+    }
+  },
+  "se": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "se",
+      "present": "ser",
+      "past": "såg",
+      "supine": "sett"
+    }
+  },
+  "ligga": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "ligga",
+      "present": "ligger",
+      "past": "låg",
+      "supine": "legat"
+    }
+  },
+  "sitta": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "sitta",
+      "present": "sitter",
+      "past": "satt",
+      "supine": "suttit"
+    }
+  },
+  "stå": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "stå",
+      "present": "står",
+      "past": "stod",
+      "supine": "stått"
+    }
+  },
+  "gå": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "gå",
+      "present": "går",
+      "past": "gick",
+      "supine": "gått"
+    }
+  },
+  "komma": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "komma",
+      "present": "kommer",
+      "past": "kom",
+      "supine": "kommit"
+    }
+  },
+  "äta": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "äta",
+      "present": "äter",
+      "past": "åt",
+      "supine": "ätit"
+    }
+  },
+  "springa": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "springa",
+      "present": "springer",
+      "past": "sprang",
+      "supine": "sprungit"
+    }
+  },
+  "sjunga": {
+    "type": "verb",
+    "group": "Verb group 4 (strong)",
+    "forms": {
+      "infinitive": "sjunga",
+      "present": "sjunger",
+      "past": "sjöng",
+      "supine": "sjungit"
+    }
+  },
+  "kunna": {
+    "type": "verb",
+    "group": "Modal verb",
+    "forms": {
+      "infinitive": "kunna",
+      "present": "kan",
+      "past": "kunde",
+      "supine": "kunnat"
+    }
+  },
+  "vilja": {
+    "type": "verb",
+    "group": "Modal verb",
+    "forms": {
+      "infinitive": "vilja",
+      "present": "vill",
+      "past": "ville",
+      "supine": "velat"
+    }
+  },
+  "ska": {
+    "type": "verb",
+    "group": "Modal verb",
+    "forms": {
+      "infinitive": "skola",
+      "present": "ska/skall",
+      "past": "skulle",
+      "supine": "skolat"
+    }
+  },
+  "måste": {
+    "type": "verb",
+    "group": "Modal verb",
+    "forms": {
+      "infinitive": "måste",
+      "present": "måste",
+      "past": "måste",
+      "supine": "måst"
+    }
+  },
+  "böra": {
+    "type": "verb",
+    "group": "Modal verb",
+    "forms": {
+      "infinitive": "böra",
+      "present": "bör",
+      "past": "borde",
+      "supine": "bort"
+    }
+  },
+  "få": {
+    "type": "verb",
+    "group": "Modal verb / irregular",
+    "forms": {
+      "infinitive": "få",
+      "present": "får",
+      "past": "fick",
+      "supine": "fått"
+    }
+  }
+}

@@ -1,1 +1,0 @@
-data/swedish_dictionary_complete.json filter=lfs diff=lfs merge=lfs -text

@@ -4,6 +4,7 @@ Powered by SALDO dictionary with 315,000+ Swedish words.
 """
 
 import os
+import json
 import logging
 from typing import Dict, Any
 from dotenv import load_dotenv
@@ -60,6 +61,12 @@ class SwedishBot:
         welcome_message = (
             "🇸🇪 *Swedish Learning Bot*\n"
             "*Powered by SALDO Language Database*\n\n"
+            
+            "🆕 *What's New (Oct 2025):*\n"
+            "• Report button on every word card\n"
+            "• Improved strong verb forms\n"
+            "• Report missing words feature\n\n"
+            
             f"📚 *{stats['total_entries']:,}* Swedish words available\n"
             f"• {stats['base_words']:,} base words\n"
             f"• {stats['word_forms']:,} inflected forms\n\n"
@@ -227,9 +234,16 @@ class SwedishBot:
                     "might not be included."
                 )
 
+            # Add report button for missing words too
+            keyboard = [[
+                InlineKeyboardButton("🚩 Report Missing Word", callback_data=f"report:{word}")
+            ]]
+            reply_markup = InlineKeyboardMarkup(keyboard)
+
             await update.message.reply_text(
                 not_found_msg,
-                parse_mode='Markdown'
+                parse_mode='Markdown',
+                reply_markup=reply_markup
             )
             return
 
@@ -238,9 +252,21 @@ class SwedishBot:
             await self.show_meaning_options(update, result)
             return
 
-        # Format and send word card
+        # Format word card
         card = dictionary.format_word_card(result['data'], result['word'])
-        await update.message.reply_text(card, parse_mode='Markdown')
+        
+        # Add report button
+        keyboard = [[
+            InlineKeyboardButton("🚩 Report Issue", callback_data=f"report:{word}")
+        ]]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        
+        # Send with button
+        await update.message.reply_text(
+            card, 
+            parse_mode='Markdown',
+            reply_markup=reply_markup
+        )
 
     async def show_meaning_options(self, update: Update, result: Dict[str, Any]):
         """Show interactive buttons for ambiguous words."""
@@ -289,7 +315,82 @@ class SwedishBot:
 
         # Format and display the selected meaning
         card = dictionary.format_word_card(selected_meaning, word)
-        await query.edit_message_text(card, parse_mode='Markdown')
+        
+        # Add report button to ambiguous words too
+        keyboard = [[
+            InlineKeyboardButton("🚩 Report Issue", callback_data=f"report:{word}")
+        ]]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        
+        await query.edit_message_text(
+            card, 
+            parse_mode='Markdown',
+            reply_markup=reply_markup
+        )
+
+    async def handle_report(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """Handle word issue reports."""
+        query = update.callback_query
+        await query.answer("Thank you for reporting!")
+
+        # Parse callback data
+        _, word = query.data.split(':', 1)
+        
+        # Log the report
+        user = update.effective_user
+        user_info = {
+            'user_id': user.id,
+            'username': user.username,
+            'first_name': user.first_name,
+            'word': word,
+            'timestamp': update.callback_query.message.date.isoformat()
+        }
+        
+        # Save to reported_words.json
+        reported_path = os.path.join(
+            os.path.dirname(__file__),
+            'data',
+            'reported_words.json'
+        )
+        
+        try:
+            # Load existing reports
+            if os.path.exists(reported_path):
+                with open(reported_path, 'r', encoding='utf-8') as f:
+                    reports = json.load(f)
+            else:
+                reports = []
+            
+            # Add new report
+            reports.append(user_info)
+            
+            # Save updated reports
+            with open(reported_path, 'w', encoding='utf-8') as f:
+                json.dump(reports, f, ensure_ascii=False, indent=2)
+            
+            logger.info(f"User {user.id} reported word: {word}")
+            
+            # Update message to show report was received
+            await query.edit_message_reply_markup(
+                reply_markup=InlineKeyboardMarkup([[
+                    InlineKeyboardButton("✅ Reported", callback_data="noop")
+                ]])
+            )
+            
+            # Send confirmation
+            confirmation = (
+                f"✅ Thank you for reporting '*{word}*'!\n\n"
+                "Your feedback helps improve the bot.\n"
+                "I'll review this word and update it if needed."
+            )
+            await query.message.reply_text(confirmation, parse_mode='Markdown')
+            
+        except Exception as e:
+            logger.error(f"Error saving report: {e}")
+            await query.message.reply_text(
+                "Sorry, there was an error saving your report. "
+                "Please contact @oleksii_shcherbak33 directly."
+            )
 
     async def set_commands(self, application: Application):
         """Set bot commands for the menu."""
@@ -319,9 +420,12 @@ class SwedishBot:
         self.application.add_handler(CommandHandler("examples", self.examples_command))
         self.application.add_handler(CommandHandler("feedback", self.feedback_command))
 
-        # Callback handler for meaning selection
+        # Callback handlers
         self.application.add_handler(
             CallbackQueryHandler(self.handle_meaning_selection, pattern=r"^meaning:")
+        )
+        self.application.add_handler(
+            CallbackQueryHandler(self.handle_report, pattern=r"^report:")
         )
 
         # Message handler for word lookups

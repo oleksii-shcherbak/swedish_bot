@@ -86,7 +86,7 @@
       "gender": "ett",
       "description": "crack/fissure",
       "group": "Declension 5",
-      "forms": ["spring", "sprinGet", "spring", "springen"]
+      "forms": ["spring", "springet", "spring", "springen"]
     }
   ],
   "till": [
@@ -124,6 +124,46 @@
         "supine": "bytt",
         "imperative": "byt"
       }
+    }
+  ],
+  "vecka": [
+    {
+      "type": "noun",
+      "gender": "en",
+      "description": "week",
+      "group": "Declension 1",
+      "forms": ["vecka", "veckan", "veckor", "veckorna"]
+    },
+    {
+      "type": "verb",
+      "description": "wake/awaken (to wake someone)",
+      "group": "Group 2",
+      "forms": {
+        "infinitive": "väcka",
+        "present": "väcker",
+        "past": "väckte",
+        "supine": "väckt"
+      }
+    }
+  ],
+  "ren": [
+    {
+      "type": "adjective",
+      "description": "clean/pure",
+      "forms": {
+        "en_form": "ren",
+        "ett_form": "rent",
+        "plural": "rena",
+        "comparative": "renare",
+        "superlative": "renast"
+      }
+    },
+    {
+      "type": "noun",
+      "gender": "en",
+      "description": "reindeer",
+      "group": "Declension 2",
+      "forms": ["ren", "renen", "renar", "renarna"]
     }
   ]
 }
