@@ -1,4 +1,5 @@
 import json
+import gzip
 import os
 import logging
 from typing import Dict, List, Optional, Any
@@ -18,12 +19,23 @@ class SwedishDictionary:
             ambiguous_path: Optional path to ambiguous words file.
         """
         if dict_path is None:
+            # Try compressed file first
+            compressed_path = os.path.join(
+                os.path.dirname(__file__),
+                '..',
+                'data',
+                'dictionary.json.gz'
+            )
             dict_path = os.path.join(
                 os.path.dirname(__file__),
                 '..',
                 'data',
                 'swedish_dictionary_complete.json'
             )
+            
+            # Use compressed if it exists
+            if os.path.exists(compressed_path):
+                dict_path = compressed_path
         
         if ambiguous_path is None:
             ambiguous_path = os.path.join(
@@ -41,9 +53,15 @@ class SwedishDictionary:
         )
 
         try:
-            with open(dict_path, 'r', encoding='utf-8') as f:
-                self.data = json.load(f)
-            logger.info(f"Loaded {len(self.data)} Swedish words from SALDO")
+            # Check if compressed
+            if dict_path.endswith('.gz'):
+                with gzip.open(dict_path, 'rt', encoding='utf-8') as f:
+                    self.data = json.load(f)
+                logger.info(f"Loaded {len(self.data)} Swedish words from compressed dictionary")
+            else:
+                with open(dict_path, 'r', encoding='utf-8') as f:
+                    self.data = json.load(f)
+                logger.info(f"Loaded {len(self.data)} Swedish words from SALDO")
         except FileNotFoundError:
             logger.error(f"Dictionary file not found: {dict_path}")
             self.data = {}
