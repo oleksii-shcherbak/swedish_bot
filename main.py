@@ -206,6 +206,46 @@ class SwedishBot:
             parse_mode='Markdown'
         )
 
+    async def users_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        """Handle /users command - admin only."""
+        # Only allow your user ID
+        YOUR_USER_ID = update.effective_user.id  # First time you run it, this will be your ID
+        
+        # For security, you should hardcode your actual user ID here after first run
+        # Example: if update.effective_user.id != 123456789:
+        
+        users_path = os.path.join(
+            os.path.dirname(__file__),
+            'data',
+            'users.json'
+        )
+        
+        try:
+            if os.path.exists(users_path):
+                with open(users_path, 'r', encoding='utf-8') as f:
+                    users = json.load(f)
+            else:
+                users = []
+            
+            if not users:
+                await update.message.reply_text("No users tracked yet.")
+                return
+            
+            # Format user list
+            user_list = f"👥 *Bot Users* ({len(users)} total)\n\n"
+            for user in users:
+                username = f"@{user['username']}" if user['username'] else "no username"
+                user_list += (
+                    f"• {user['first_name']} ({username})\n"
+                    f"  ID: `{user['user_id']}`\n"
+                    f"  First seen: {user['first_seen'][:10]}\n\n"
+                )
+            
+            await update.message.reply_text(user_list, parse_mode='Markdown')
+            
+        except Exception as e:
+            await update.message.reply_text(f"Error loading users: {e}")
+
     async def handle_message(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         """Handle text messages (word lookups)."""
         word = update.message.text.strip()
@@ -459,6 +499,7 @@ class SwedishBot:
         self.application.add_handler(CommandHandler("stats", self.stats_command))
         self.application.add_handler(CommandHandler("examples", self.examples_command))
         self.application.add_handler(CommandHandler("feedback", self.feedback_command))
+        self.application.add_handler(CommandHandler("users", self.users_command))
 
         # Callback handlers
         self.application.add_handler(
