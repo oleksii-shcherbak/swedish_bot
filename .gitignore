@@ -111,9 +111,8 @@ Temporary Items
 __pycache__/
 *.pyc
 
-# Large data files - rebuild on server
+# Large source data (not needed on server)
 data/saldo.xml
-data/swedish_dictionary_complete.json
 
 # Logs
 *.log
