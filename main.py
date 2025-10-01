@@ -208,11 +208,12 @@ class SwedishBot:
 
     async def users_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         """Handle /users command - admin only."""
-        # Only allow your user ID
-        YOUR_USER_ID = update.effective_user.id  # First time you run it, this will be your ID
+        ADMIN_USER_ID = 266049422  # Oleksii's user ID
         
-        # For security, you should hardcode your actual user ID here after first run
-        # Example: if update.effective_user.id != 123456789:
+        # Check if user is admin
+        if update.effective_user.id != ADMIN_USER_ID:
+            await update.message.reply_text("❌ This command is only available to the bot administrator.")
+            return
         
         users_path = os.path.join(
             os.path.dirname(__file__),
