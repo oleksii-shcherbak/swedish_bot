@@ -238,7 +238,8 @@ class SwedishBot:
                     }
                 users_map[user_id]['reports'].append(report['word'])
             
-            user_list = f"👥 *Users Who Reported Issues* ({len(users_map)} total)\n\n"
+            # Format without Markdown to avoid parsing errors
+            user_list = f"👥 Users Who Reported Issues ({len(users_map)} total)\n\n"
             for user_id, data in users_map.items():
                 username = f"@{data['username']}" if data['username'] else "no username"
                 user_list += (
@@ -247,7 +248,8 @@ class SwedishBot:
                     f"  Words: {', '.join(data['reports'][:5])}\n\n"
                 )
             
-            await update.message.reply_text(user_list, parse_mode='Markdown')
+            # Send as plain text (no Markdown)
+            await update.message.reply_text(user_list)
             
         except Exception as e:
             await update.message.reply_text(f"Error: {e}")
