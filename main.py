@@ -44,12 +44,13 @@ logger.info(f"Dictionary loaded: {stats['total_entries']} entries ({stats['base_
 
 class SwedishBot:
     """Main bot class handling all interactions."""
-
+    
+    # Whitelist of allowed user IDs
     def __init__(self, token: str):
         """Initialize the Swedish Learning Bot."""
         self.token = token
         self.application = None
-
+    
     async def post_init(self, application: Application) -> None:
         """Post-initialization hook to set up bot commands."""
         await self.set_commands(application)
