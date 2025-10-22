@@ -126,26 +126,6 @@
       }
     }
   ],
-  "vecka": [
-    {
-      "type": "noun",
-      "gender": "en",
-      "description": "week",
-      "group": "Declension 1",
-      "forms": ["vecka", "veckan", "veckor", "veckorna"]
-    },
-    {
-      "type": "verb",
-      "description": "wake/awaken (to wake someone)",
-      "group": "Group 2",
-      "forms": {
-        "infinitive": "väcka",
-        "present": "väcker",
-        "past": "väckte",
-        "supine": "väckt"
-      }
-    }
-  ],
   "ren": [
     {
       "type": "adjective",
@@ -164,6 +144,49 @@
       "description": "reindeer",
       "group": "Declension 2",
       "forms": ["ren", "renen", "renar", "renarna"]
+    }
+  ],
+  "vecka": [
+    {
+      "type": "noun",
+      "gender": "en",
+      "description": "week",
+      "group": "Declension 1",
+      "forms": ["vecka", "veckan", "veckor", "veckorna"]
+    },
+    {
+      "type": "verb",
+      "description": "fold",
+      "group": "Verb group 1",
+      "forms": {
+        "infinitive": "vecka",
+        "present": "veckar",
+        "past": "veckade",
+        "supine": "veckat"
+      }
+    }
+  ],
+  "veckor": [
+    {
+      "type": "noun",
+      "description": "weeks (plural of vecka)",
+      "group": "Declension 1",
+      "base_form": "vecka",
+      "forms": ["vecka", "veckan", "veckor", "veckorna"]
+    }
+  ],
+  "vackra": [
+    {
+      "type": "adjective",
+      "description": "beautiful (plural/definite form of vacker)",
+      "base_form": "vacker",
+      "forms": {
+        "en_form": "vacker",
+        "ett_form": "vackert",
+        "plural": "vackra",
+        "comparative": "vackrare",
+        "superlative": "vackrast"
+      }
     }
   ]
 }
