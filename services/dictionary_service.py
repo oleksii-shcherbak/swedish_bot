@@ -343,6 +343,20 @@ class SwedishDictionary:
                         break
 
         return suggestions
+    
+    def get_suggestions(self, word: str, limit: int = 5) -> List[str]:
+        """
+        Get word suggestions for a misspelled word.
+        Alias for suggest() to maintain compatibility.
+        
+        Args:
+            word: The word to get suggestions for.
+            limit: Maximum number of suggestions.
+            
+        Returns:
+            List of suggested words.
+        """
+        return self.suggest(word, limit)
 
     def get_stats(self) -> Dict[str, int]:
         """Get dictionary statistics."""
