@@ -65,6 +65,13 @@ class SwedishDictionary:
             'data',
             'irregular_verbs_comprehensive.json'
         )
+        
+        pronouns_path = os.path.join(
+            os.path.dirname(__file__),
+            '..',
+            'data',
+            'pronouns.json'
+        )
 
         # Load main dictionary
         try:
@@ -175,6 +182,18 @@ class SwedishDictionary:
             logger.error(f"Error loading irregular verbs: {e}")
             self.irregular_verbs = {}
             self.irregular_forms_lookup = {}
+        
+        # Load pronouns
+        try:
+            with open(pronouns_path, 'r', encoding='utf-8') as f:
+                self.pronouns = json.load(f)
+            logger.info(f"Loaded {len(self.pronouns)} pronouns")
+        except FileNotFoundError:
+            logger.warning(f"Pronouns file not found: {pronouns_path}")
+            self.pronouns = {}
+        except json.JSONDecodeError as e:
+            logger.error(f"Error parsing pronouns: {e}")
+            self.pronouns = {}
 
     def lookup(self, word: str) -> Optional[Dict[str, Any]]:
         """
@@ -210,7 +229,16 @@ class SwedishDictionary:
                 'word': word
             }
         
-        # 3. Check irregular verbs - both infinitive and all forms
+        # 3. Check pronouns
+        if word in self.pronouns:
+            logger.info(f"Found pronoun: {word}")
+            return {
+                'ambiguous': False,
+                'data': self.pronouns[word],
+                'word': word
+            }
+        
+        # 4. Check irregular verbs - both infinitive and all forms
         if word in self.irregular_verbs:
             # Direct infinitive match
             verb_data = self.irregular_verbs[word]
@@ -291,8 +319,10 @@ class SwedishDictionary:
         Returns:
             Formatted verb dictionary.
         """
-        # Determine verb group based on pattern
-        if verb_data.get('pattern') == 'highly_irregular':
+        # Use the group from verb data if available, otherwise determine from pattern
+        if 'group' in verb_data:
+            group = verb_data['group']
+        elif verb_data.get('pattern') == 'highly_irregular':
             group = "Verb group 4 (highly irregular)"
         elif verb_data.get('pattern') == 'modal':
             group = "Modal verb"
@@ -326,14 +356,6 @@ class SwedishDictionary:
             'group': group,
             'forms': forms
         }
-        
-        # Add meaning if available
-        if verb_data.get('meaning'):
-            result['description'] = verb_data.get('meaning')
-        
-        # Add frequency if available
-        if verb_data.get('frequency'):
-            result['frequency'] = verb_data.get('frequency')
         
         return result
 
@@ -369,12 +391,10 @@ class SwedishDictionary:
             card += self._format_adjective(word_data)
         elif word_type == 'numeral':
             card += self._format_numeral(word_data)
+        elif word_type == 'pronoun':
+            card += self._format_pronoun(word_data)
         else:
             card += self._format_other(word_data)
-        
-        # Add description if available
-        if 'description' in word_data:
-            card += f"\n📝 _{word_data['description']}_\n"
         
         return card
 
@@ -462,6 +482,33 @@ class SwedishDictionary:
         """Format numeral information."""
         card = f"*Cardinal:* _{word_data.get('cardinal', '—')}_\n"
         card += f"*Ordinal:* _{word_data.get('ordinal', '—')}_\n"
+        return card
+
+    def _format_pronoun(self, word_data: Dict[str, Any]) -> str:
+        """Format pronoun information."""
+        forms = word_data.get('forms', {})
+        category = word_data.get('category', '')
+        
+        if category:
+            card = f"*Category:* {category}\n\n"
+        else:
+            card = ""
+        
+        # Add base form if this is a declined form
+        if 'base_form' in word_data:
+            card += f"*Base form:* _{word_data['base_form']}_\n\n"
+        
+        if isinstance(forms, dict) and forms:
+            card += "*Forms:*\n"
+            for key, value in forms.items():
+                # Format the key nicely
+                formatted_key = key.replace('_', ' ').capitalize()
+                card += f"• {formatted_key}: _{value}_\n"
+        
+        # Add note if present
+        if 'note' in word_data:
+            card += f"\n💡 {word_data['note']}\n"
+        
         return card
 
     def _format_other(self, word_data: Dict[str, Any]) -> str:

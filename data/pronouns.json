@@ -1,0 +1,671 @@
+{
+  "jag": {
+    "type": "pronoun",
+    "category": "Personal pronoun",
+    "forms": {
+      "subject": "jag",
+      "object": "mig",
+      "possessive_en": "min",
+      "possessive_ett": "mitt",
+      "possessive_plural": "mina"
+    }
+  },
+  "mig": {
+    "type": "pronoun",
+    "category": "Personal pronoun (object form)",
+    "base_form": "jag",
+    "forms": {
+      "subject": "jag",
+      "object": "mig",
+      "possessive_en": "min",
+      "possessive_ett": "mitt",
+      "possessive_plural": "mina"
+    }
+  },
+  "min": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "jag",
+    "forms": {
+      "en_form": "min",
+      "ett_form": "mitt",
+      "plural": "mina"
+    }
+  },
+  "mitt": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "jag",
+    "forms": {
+      "en_form": "min",
+      "ett_form": "mitt",
+      "plural": "mina"
+    }
+  },
+  "mina": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "jag",
+    "forms": {
+      "en_form": "min",
+      "ett_form": "mitt",
+      "plural": "mina"
+    }
+  },
+  "du": {
+    "type": "pronoun",
+    "category": "Personal pronoun",
+    "forms": {
+      "subject": "du",
+      "object": "dig",
+      "possessive_en": "din",
+      "possessive_ett": "ditt",
+      "possessive_plural": "dina"
+    }
+  },
+  "dig": {
+    "type": "pronoun",
+    "category": "Personal pronoun (object form)",
+    "base_form": "du",
+    "forms": {
+      "subject": "du",
+      "object": "dig",
+      "possessive_en": "din",
+      "possessive_ett": "ditt",
+      "possessive_plural": "dina"
+    }
+  },
+  "din": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "du",
+    "forms": {
+      "en_form": "din",
+      "ett_form": "ditt",
+      "plural": "dina"
+    }
+  },
+  "ditt": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "du",
+    "forms": {
+      "en_form": "din",
+      "ett_form": "ditt",
+      "plural": "dina"
+    }
+  },
+  "dina": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "du",
+    "forms": {
+      "en_form": "din",
+      "ett_form": "ditt",
+      "plural": "dina"
+    }
+  },
+  "han": {
+    "type": "pronoun",
+    "category": "Personal pronoun",
+    "forms": {
+      "subject": "han",
+      "object": "honom",
+      "possessive_en": "hans",
+      "possessive_ett": "hans",
+      "possessive_plural": "hans"
+    }
+  },
+  "honom": {
+    "type": "pronoun",
+    "category": "Personal pronoun (object form)",
+    "base_form": "han",
+    "forms": {
+      "subject": "han",
+      "object": "honom"
+    }
+  },
+  "hans": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "han",
+    "forms": {
+      "all_genders": "hans"
+    }
+  },
+  "hon": {
+    "type": "pronoun",
+    "category": "Personal pronoun",
+    "forms": {
+      "subject": "hon",
+      "object": "henne",
+      "possessive_en": "hennes",
+      "possessive_ett": "hennes",
+      "possessive_plural": "hennes"
+    }
+  },
+  "henne": {
+    "type": "pronoun",
+    "category": "Personal pronoun (object form)",
+    "base_form": "hon",
+    "forms": {
+      "subject": "hon",
+      "object": "henne"
+    }
+  },
+  "hennes": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "hon",
+    "forms": {
+      "all_genders": "hennes"
+    }
+  },
+  "hen": {
+    "type": "pronoun",
+    "category": "Personal pronoun (gender-neutral)",
+    "forms": {
+      "subject": "hen",
+      "object": "hen",
+      "possessive_en": "hens",
+      "possessive_ett": "hens",
+      "possessive_plural": "hens"
+    }
+  },
+  "hens": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "hen",
+    "forms": {
+      "all_genders": "hens"
+    }
+  },
+  "den": {
+    "type": "pronoun",
+    "category": "Personal pronoun (en-words)",
+    "forms": {
+      "en_form": "den",
+      "possessive": "dess"
+    }
+  },
+  "det": {
+    "type": "pronoun",
+    "category": "Personal pronoun (ett-words)",
+    "forms": {
+      "ett_form": "det",
+      "possessive": "dess"
+    }
+  },
+  "dess": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "den/det",
+    "forms": {
+      "all_genders": "dess"
+    }
+  },
+  "vi": {
+    "type": "pronoun",
+    "category": "Personal pronoun",
+    "forms": {
+      "subject": "vi",
+      "object": "oss",
+      "possessive_en": "vår",
+      "possessive_ett": "vårt",
+      "possessive_plural": "våra"
+    }
+  },
+  "oss": {
+    "type": "pronoun",
+    "category": "Personal pronoun (object form)",
+    "base_form": "vi",
+    "forms": {
+      "subject": "vi",
+      "object": "oss"
+    }
+  },
+  "vår": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "vi",
+    "forms": {
+      "en_form": "vår",
+      "ett_form": "vårt",
+      "plural": "våra"
+    }
+  },
+  "vårt": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "vi",
+    "forms": {
+      "en_form": "vår",
+      "ett_form": "vårt",
+      "plural": "våra"
+    }
+  },
+  "våra": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "vi",
+    "forms": {
+      "en_form": "vår",
+      "ett_form": "vårt",
+      "plural": "våra"
+    }
+  },
+  "ni": {
+    "type": "pronoun",
+    "category": "Personal pronoun",
+    "forms": {
+      "subject": "ni",
+      "object": "er",
+      "possessive_en": "er",
+      "possessive_ett": "ert",
+      "possessive_plural": "era"
+    }
+  },
+  "er": {
+    "type": "pronoun",
+    "category": "Personal pronoun (object form) / Possessive pronoun",
+    "base_form": "ni",
+    "forms": {
+      "subject": "ni",
+      "object": "er",
+      "en_form": "er",
+      "ett_form": "ert",
+      "plural": "era"
+    }
+  },
+  "ert": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "ni",
+    "forms": {
+      "en_form": "er",
+      "ett_form": "ert",
+      "plural": "era"
+    }
+  },
+  "era": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "ni",
+    "forms": {
+      "en_form": "er",
+      "ett_form": "ert",
+      "plural": "era"
+    }
+  },
+  "de": {
+    "type": "pronoun",
+    "category": "Personal pronoun",
+    "forms": {
+      "subject": "de",
+      "object": "dem",
+      "possessive_en": "deras",
+      "possessive_ett": "deras",
+      "possessive_plural": "deras"
+    }
+  },
+  "dom": {
+    "type": "pronoun",
+    "category": "Personal pronoun (colloquial)",
+    "note": "Colloquial form of de/dem",
+    "forms": {
+      "colloquial": "dom",
+      "formal_subject": "de",
+      "formal_object": "dem"
+    }
+  },
+  "dem": {
+    "type": "pronoun",
+    "category": "Personal pronoun (object form)",
+    "base_form": "de",
+    "forms": {
+      "subject": "de",
+      "object": "dem"
+    }
+  },
+  "deras": {
+    "type": "pronoun",
+    "category": "Possessive pronoun",
+    "base_form": "de",
+    "forms": {
+      "all_genders": "deras"
+    }
+  },
+  "sig": {
+    "type": "pronoun",
+    "category": "Reflexive pronoun",
+    "forms": {
+      "reflexive": "sig",
+      "possessive_en": "sin",
+      "possessive_ett": "sitt",
+      "possessive_plural": "sina"
+    }
+  },
+  "sin": {
+    "type": "pronoun",
+    "category": "Reflexive possessive pronoun",
+    "base_form": "sig",
+    "forms": {
+      "en_form": "sin",
+      "ett_form": "sitt",
+      "plural": "sina"
+    }
+  },
+  "sitt": {
+    "type": "pronoun",
+    "category": "Reflexive possessive pronoun",
+    "base_form": "sig",
+    "forms": {
+      "en_form": "sin",
+      "ett_form": "sitt",
+      "plural": "sina"
+    }
+  },
+  "sina": {
+    "type": "pronoun",
+    "category": "Reflexive possessive pronoun",
+    "base_form": "sig",
+    "forms": {
+      "en_form": "sin",
+      "ett_form": "sitt",
+      "plural": "sina"
+    }
+  },
+  "man": {
+    "type": "pronoun",
+    "category": "Indefinite pronoun",
+    "forms": {
+      "subject": "man",
+      "object": "en",
+      "possessive_en": "ens",
+      "possessive_ett": "ens",
+      "possessive_plural": "ens"
+    }
+  },
+  "en": {
+    "type": "pronoun",
+    "category": "Indefinite pronoun (object form)",
+    "base_form": "man",
+    "forms": {
+      "subject": "man",
+      "object": "en"
+    }
+  },
+  "ens": {
+    "type": "pronoun",
+    "category": "Indefinite possessive pronoun",
+    "base_form": "man",
+    "forms": {
+      "all_genders": "ens"
+    }
+  },
+  "vem": {
+    "type": "pronoun",
+    "category": "Interrogative pronoun",
+    "forms": {
+      "subject": "vem",
+      "object": "vem",
+      "possessive": "vems"
+    }
+  },
+  "vems": {
+    "type": "pronoun",
+    "category": "Interrogative possessive pronoun",
+    "base_form": "vem",
+    "forms": {
+      "possessive": "vems"
+    }
+  },
+  "vad": {
+    "type": "pronoun",
+    "category": "Interrogative pronoun",
+    "forms": {
+      "base": "vad"
+    }
+  },
+  "vilken": {
+    "type": "pronoun",
+    "category": "Interrogative/relative pronoun",
+    "forms": {
+      "en_form": "vilken",
+      "ett_form": "vilket",
+      "plural": "vilka"
+    }
+  },
+  "vilket": {
+    "type": "pronoun",
+    "category": "Interrogative/relative pronoun",
+    "base_form": "vilken",
+    "forms": {
+      "en_form": "vilken",
+      "ett_form": "vilket",
+      "plural": "vilka"
+    }
+  },
+  "vilka": {
+    "type": "pronoun",
+    "category": "Interrogative/relative pronoun",
+    "base_form": "vilken",
+    "forms": {
+      "en_form": "vilken",
+      "ett_form": "vilket",
+      "plural": "vilka"
+    }
+  },
+  "någon": {
+    "type": "pronoun",
+    "category": "Indefinite pronoun",
+    "forms": {
+      "en_form": "någon",
+      "ett_form": "något",
+      "plural": "några"
+    }
+  },
+  "något": {
+    "type": "pronoun",
+    "category": "Indefinite pronoun",
+    "base_form": "någon",
+    "forms": {
+      "en_form": "någon",
+      "ett_form": "något",
+      "plural": "några"
+    }
+  },
+  "några": {
+    "type": "pronoun",
+    "category": "Indefinite pronoun",
+    "base_form": "någon",
+    "forms": {
+      "en_form": "någon",
+      "ett_form": "något",
+      "plural": "några"
+    }
+  },
+  "ingen": {
+    "type": "pronoun",
+    "category": "Negative pronoun",
+    "forms": {
+      "en_form": "ingen",
+      "ett_form": "inget",
+      "plural": "inga"
+    }
+  },
+  "inget": {
+    "type": "pronoun",
+    "category": "Negative pronoun",
+    "base_form": "ingen",
+    "forms": {
+      "en_form": "ingen",
+      "ett_form": "inget",
+      "plural": "inga"
+    }
+  },
+  "inga": {
+    "type": "pronoun",
+    "category": "Negative pronoun",
+    "base_form": "ingen",
+    "forms": {
+      "en_form": "ingen",
+      "ett_form": "inget",
+      "plural": "inga"
+    }
+  },
+  "all": {
+    "type": "pronoun",
+    "category": "Universal pronoun",
+    "forms": {
+      "en_form": "all",
+      "ett_form": "allt",
+      "plural": "alla"
+    }
+  },
+  "allt": {
+    "type": "pronoun",
+    "category": "Universal pronoun",
+    "base_form": "all",
+    "forms": {
+      "en_form": "all",
+      "ett_form": "allt",
+      "plural": "alla"
+    }
+  },
+  "alla": {
+    "type": "pronoun",
+    "category": "Universal pronoun",
+    "base_form": "all",
+    "forms": {
+      "en_form": "all",
+      "ett_form": "allt",
+      "plural": "alla"
+    }
+  },
+  "någonting": {
+    "type": "pronoun",
+    "category": "Indefinite pronoun",
+    "forms": {
+      "base": "någonting"
+    }
+  },
+  "ingenting": {
+    "type": "pronoun",
+    "category": "Negative pronoun",
+    "forms": {
+      "base": "ingenting"
+    }
+  },
+  "allting": {
+    "type": "pronoun",
+    "category": "Universal pronoun",
+    "forms": {
+      "base": "allting"
+    }
+  },
+  "sådan": {
+    "type": "pronoun",
+    "category": "Demonstrative pronoun",
+    "forms": {
+      "en_form": "sådan",
+      "ett_form": "sådant",
+      "plural": "sådana"
+    }
+  },
+  "sådant": {
+    "type": "pronoun",
+    "category": "Demonstrative pronoun",
+    "base_form": "sådan",
+    "forms": {
+      "en_form": "sådan",
+      "ett_form": "sådant",
+      "plural": "sådana"
+    }
+  },
+  "sådana": {
+    "type": "pronoun",
+    "category": "Demonstrative pronoun",
+    "base_form": "sådan",
+    "forms": {
+      "en_form": "sådan",
+      "ett_form": "sådant",
+      "plural": "sådana"
+    }
+  },
+  "denna": {
+    "type": "pronoun",
+    "category": "Demonstrative pronoun",
+    "forms": {
+      "en_form": "denne/denna",
+      "ett_form": "detta",
+      "plural": "dessa"
+    }
+  },
+  "denne": {
+    "type": "pronoun",
+    "category": "Demonstrative pronoun",
+    "base_form": "denna",
+    "forms": {
+      "en_form": "denne/denna",
+      "ett_form": "detta",
+      "plural": "dessa"
+    }
+  },
+  "detta": {
+    "type": "pronoun",
+    "category": "Demonstrative pronoun",
+    "base_form": "denna",
+    "forms": {
+      "en_form": "denne/denna",
+      "ett_form": "detta",
+      "plural": "dessa"
+    }
+  },
+  "dessa": {
+    "type": "pronoun",
+    "category": "Demonstrative pronoun",
+    "base_form": "denna",
+    "forms": {
+      "en_form": "denne/denna",
+      "ett_form": "detta",
+      "plural": "dessa"
+    }
+  },
+  "samma": {
+    "type": "pronoun",
+    "category": "Demonstrative pronoun",
+    "forms": {
+      "all_genders": "samma"
+    }
+  },
+  "annan": {
+    "type": "pronoun",
+    "category": "Indefinite pronoun",
+    "forms": {
+      "en_form": "annan",
+      "ett_form": "annat",
+      "plural": "andra"
+    }
+  },
+  "annat": {
+    "type": "pronoun",
+    "category": "Indefinite pronoun",
+    "base_form": "annan",
+    "forms": {
+      "en_form": "annan",
+      "ett_form": "annat",
+      "plural": "andra"
+    }
+  },
+  "andra": {
+    "type": "pronoun",
+    "category": "Indefinite pronoun",
+    "base_form": "annan",
+    "forms": {
+      "en_form": "annan",
+      "ett_form": "annat",
+      "plural": "andra"
+    }
+  }
+}

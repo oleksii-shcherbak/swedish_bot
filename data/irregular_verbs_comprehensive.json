@@ -19,7 +19,8 @@
       "passive_present": "är",
       "passive_past": "var",
       "frequency": "highest",
-      "meaning": "to be"
+      "meaning": "to be",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "ha",
@@ -32,7 +33,8 @@
       "passive_present": "has",
       "passive_past": "hades",
       "frequency": "highest",
-      "meaning": "to have"
+      "meaning": "to have",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "gå",
@@ -45,7 +47,8 @@
       "passive_present": "gås",
       "passive_past": "gicks",
       "frequency": "highest",
-      "meaning": "to go, walk"
+      "meaning": "to go, walk",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "stå",
@@ -58,7 +61,8 @@
       "passive_present": "stås",
       "passive_past": "stods",
       "frequency": "very_high",
-      "meaning": "to stand"
+      "meaning": "to stand",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "slå",
@@ -71,7 +75,8 @@
       "passive_present": "slås",
       "passive_past": "slogs",
       "frequency": "high",
-      "meaning": "to hit, strike"
+      "meaning": "to hit, strike",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "få",
@@ -84,7 +89,8 @@
       "passive_present": "fås",
       "passive_past": "ficks",
       "frequency": "highest",
-      "meaning": "to get, receive; may"
+      "meaning": "to get, receive; may",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "ge",
@@ -97,7 +103,8 @@
       "passive_present": "ges",
       "passive_past": "gavs",
       "frequency": "very_high",
-      "meaning": "to give"
+      "meaning": "to give",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "se",
@@ -110,7 +117,8 @@
       "passive_present": "ses",
       "passive_past": "sågs",
       "frequency": "highest",
-      "meaning": "to see"
+      "meaning": "to see",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "ta",
@@ -123,7 +131,8 @@
       "passive_present": "tas",
       "passive_past": "togs",
       "frequency": "highest",
-      "meaning": "to take"
+      "meaning": "to take",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "äta",
@@ -136,7 +145,8 @@
       "passive_present": "äts",
       "passive_past": "åts",
       "frequency": "very_high",
-      "meaning": "to eat"
+      "meaning": "to eat",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "be",
@@ -149,7 +159,8 @@
       "passive_present": "bes",
       "passive_past": "bads",
       "frequency": "high",
-      "meaning": "to ask, pray"
+      "meaning": "to ask, pray",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "dö",
@@ -162,7 +173,8 @@
       "passive_present": null,
       "passive_past": null,
       "frequency": "high",
-      "meaning": "to die"
+      "meaning": "to die",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "föda",
@@ -175,7 +187,8 @@
       "passive_present": "föds",
       "passive_past": "föddes",
       "frequency": "medium",
-      "meaning": "to give birth"
+      "meaning": "to give birth",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "ligga",
@@ -188,7 +201,8 @@
       "passive_present": "liggs",
       "passive_past": "lågs",
       "frequency": "very_high",
-      "meaning": "to lie (position)"
+      "meaning": "to lie (position)",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "sitta",
@@ -201,7 +215,8 @@
       "passive_present": "sitts",
       "passive_past": "satts",
       "frequency": "very_high",
-      "meaning": "to sit"
+      "meaning": "to sit",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "säga",
@@ -214,7 +229,8 @@
       "passive_present": "sägs",
       "passive_past": "sades",
       "frequency": "highest",
-      "meaning": "to say"
+      "meaning": "to say",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "göra",
@@ -227,7 +243,8 @@
       "passive_present": "görs",
       "passive_past": "gjordes",
       "frequency": "highest",
-      "meaning": "to do, make"
+      "meaning": "to do, make",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "komma",
@@ -240,7 +257,8 @@
       "passive_present": "komms",
       "passive_past": "koms",
       "frequency": "highest",
-      "meaning": "to come"
+      "meaning": "to come",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "veta",
@@ -253,7 +271,8 @@
       "passive_present": "vets",
       "passive_past": "visstes",
       "frequency": "very_high",
-      "meaning": "to know"
+      "meaning": "to know",
+      "group": "Irregular verb"
     },
     {
       "infinitive": "bli",
@@ -266,7 +285,8 @@
       "passive_present": "blvis",
       "passive_past": "blevs",
       "frequency": "highest",
-      "meaning": "to become"
+      "meaning": "to become",
+      "group": "Irregular verb"
     }
   ],
   "group_3_strong_i_e_i_pattern": [
@@ -282,7 +302,8 @@
       "passive_past": "skrevs",
       "pattern": "i-e-i",
       "frequency": "very_high",
-      "meaning": "to write"
+      "meaning": "to write",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "rida",
@@ -296,7 +317,8 @@
       "passive_past": "reds",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to ride"
+      "meaning": "to ride",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "riva",
@@ -310,7 +332,8 @@
       "passive_past": "revs",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to tear, demolish"
+      "meaning": "to tear, demolish",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "glida",
@@ -324,7 +347,8 @@
       "passive_past": "gleds",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to glide, slide"
+      "meaning": "to glide, slide",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "strida",
@@ -338,7 +362,8 @@
       "passive_past": "streds",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to fight, struggle"
+      "meaning": "to fight, struggle",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "bita",
@@ -352,7 +377,8 @@
       "passive_past": "bets",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to bite"
+      "meaning": "to bite",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "lida",
@@ -366,7 +392,8 @@
       "passive_past": "leds",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to suffer"
+      "meaning": "to suffer",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "smita",
@@ -380,7 +407,8 @@
       "passive_past": "smets",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to sneak away"
+      "meaning": "to sneak away",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "grina",
@@ -394,7 +422,8 @@
       "passive_past": "grens",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to grin"
+      "meaning": "to grin",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "skrika",
@@ -408,7 +437,8 @@
       "passive_past": "skreks",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to scream"
+      "meaning": "to scream",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "vika",
@@ -422,7 +452,8 @@
       "passive_past": "veks",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to fold, yield"
+      "meaning": "to fold, yield",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "svika",
@@ -436,7 +467,8 @@
       "passive_past": "sveks",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to betray"
+      "meaning": "to betray",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "knipa",
@@ -450,7 +482,8 @@
       "passive_past": "kneps",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to pinch"
+      "meaning": "to pinch",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "gripa",
@@ -464,7 +497,8 @@
       "passive_past": "greps",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to grasp, seize"
+      "meaning": "to grasp, seize",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "slita",
@@ -478,7 +512,8 @@
       "passive_past": "slets",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to wear, tear"
+      "meaning": "to wear, tear",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "niga",
@@ -492,7 +527,8 @@
       "passive_past": "negs",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to curtsy"
+      "meaning": "to curtsy",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "pipa",
@@ -506,7 +542,8 @@
       "passive_past": "peps",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to squeak"
+      "meaning": "to squeak",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "stiga",
@@ -520,7 +557,8 @@
       "passive_past": "stegs",
       "pattern": "i-e-i",
       "frequency": "high",
-      "meaning": "to climb, rise"
+      "meaning": "to climb, rise",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "beskriva",
@@ -534,7 +572,8 @@
       "passive_past": "beskrevs",
       "pattern": "i-e-i",
       "frequency": "high",
-      "meaning": "to describe"
+      "meaning": "to describe",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "inskriva",
@@ -548,7 +587,8 @@
       "passive_past": "inskrevs",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to inscribe, enroll"
+      "meaning": "to inscribe, enroll",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "förskriva",
@@ -562,7 +602,8 @@
       "passive_past": "förskrevs",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to prescribe"
+      "meaning": "to prescribe",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "överskriva",
@@ -576,7 +617,8 @@
       "passive_past": "överskrevs",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to overwrite, transfer"
+      "meaning": "to overwrite, transfer",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "påskriva",
@@ -590,7 +632,8 @@
       "passive_past": "påskrevs",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to endorse"
+      "meaning": "to endorse",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "nedskriva",
@@ -604,7 +647,8 @@
       "passive_past": "nedskrevs",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to write down, depreciate"
+      "meaning": "to write down, depreciate",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "utskriva",
@@ -618,7 +662,8 @@
       "passive_past": "utskrevs",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to write out, conscript"
+      "meaning": "to write out, conscript",
+      "group": "Verb group 3 (strong)"
     }
   ],
   "group_3_strong_i_a_u_pattern": [
@@ -634,7 +679,8 @@
       "passive_past": "dracks",
       "pattern": "i-a-u",
       "frequency": "very_high",
-      "meaning": "to drink"
+      "meaning": "to drink",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "springa",
@@ -648,7 +694,8 @@
       "passive_past": "sprangs",
       "pattern": "i-a-u",
       "frequency": "very_high",
-      "meaning": "to run"
+      "meaning": "to run",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "binda",
@@ -662,7 +709,8 @@
       "passive_past": "bands",
       "pattern": "i-a-u",
       "frequency": "high",
-      "meaning": "to bind, tie"
+      "meaning": "to bind, tie",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "finna",
@@ -676,7 +724,8 @@
       "passive_past": "fanns",
       "pattern": "i-a-u",
       "frequency": "very_high",
-      "meaning": "to find"
+      "meaning": "to find",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "vinna",
@@ -690,7 +739,8 @@
       "passive_past": "vanns",
       "pattern": "i-a-u",
       "frequency": "high",
-      "meaning": "to win"
+      "meaning": "to win",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "hinna",
@@ -704,7 +754,8 @@
       "passive_past": "hanns",
       "pattern": "i-a-u",
       "frequency": "very_high",
-      "meaning": "to have time, reach"
+      "meaning": "to have time, reach",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "brinna",
@@ -718,7 +769,8 @@
       "passive_past": "branns",
       "pattern": "i-a-u",
       "frequency": "medium",
-      "meaning": "to burn"
+      "meaning": "to burn",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "rinna",
@@ -732,7 +784,8 @@
       "passive_past": "ranns",
       "pattern": "i-a-u",
       "frequency": "medium",
-      "meaning": "to run, flow"
+      "meaning": "to run, flow",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "spinna",
@@ -746,7 +799,8 @@
       "passive_past": "spanns",
       "pattern": "i-a-u",
       "frequency": "low",
-      "meaning": "to spin"
+      "meaning": "to spin",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "tvinga",
@@ -760,7 +814,8 @@
       "passive_past": "tvangs",
       "pattern": "i-a-u",
       "frequency": "high",
-      "meaning": "to force"
+      "meaning": "to force",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "svinna",
@@ -774,7 +829,8 @@
       "passive_past": "svanns",
       "pattern": "i-a-u",
       "frequency": "low",
-      "meaning": "to vanish"
+      "meaning": "to vanish",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "simma",
@@ -788,7 +844,8 @@
       "passive_past": "sams",
       "pattern": "i-a-u",
       "frequency": "high",
-      "meaning": "to swim"
+      "meaning": "to swim",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "klinga",
@@ -802,7 +859,8 @@
       "passive_past": "klangs",
       "pattern": "i-a-u",
       "frequency": "medium",
-      "meaning": "to ring, sound"
+      "meaning": "to ring, sound",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "ringa",
@@ -816,7 +874,8 @@
       "passive_past": "ringdes",
       "pattern": "regular_group2",
       "frequency": "very_high",
-      "meaning": "to call (telephone)"
+      "meaning": "to call (telephone)",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "sticka",
@@ -830,7 +889,8 @@
       "passive_past": "stacks",
       "pattern": "i-a-u",
       "frequency": "high",
-      "meaning": "to sting; knit"
+      "meaning": "to sting; knit",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "stinga",
@@ -844,7 +904,8 @@
       "passive_past": "stangs",
       "pattern": "i-a-u",
       "frequency": "medium",
-      "meaning": "to sting"
+      "meaning": "to sting",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "slippa",
@@ -858,7 +919,8 @@
       "passive_past": "slapps",
       "pattern": "i-a-u",
       "frequency": "high",
-      "meaning": "to avoid, escape"
+      "meaning": "to avoid, escape",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "smälta",
@@ -872,7 +934,8 @@
       "passive_past": "smalts",
       "pattern": "ä-a-u",
       "frequency": "medium",
-      "meaning": "to melt"
+      "meaning": "to melt",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "svälja",
@@ -886,7 +949,8 @@
       "passive_past": "svaldes",
       "pattern": "ä-a-u",
       "frequency": "medium",
-      "meaning": "to swallow"
+      "meaning": "to swallow",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "svälta",
@@ -900,7 +964,8 @@
       "passive_past": "svalts",
       "pattern": "ä-a-u",
       "frequency": "medium",
-      "meaning": "to starve"
+      "meaning": "to starve",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "hjälpa",
@@ -914,7 +979,8 @@
       "passive_past": "hjälptes",
       "pattern": "regular_group2",
       "frequency": "very_high",
-      "meaning": "to help"
+      "meaning": "to help",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "försvinna",
@@ -928,7 +994,8 @@
       "passive_past": "försvanns",
       "pattern": "i-a-u",
       "frequency": "high",
-      "meaning": "to disappear"
+      "meaning": "to disappear",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "uppfinna",
@@ -942,7 +1009,8 @@
       "passive_past": "uppfanns",
       "pattern": "i-a-u",
       "frequency": "medium",
-      "meaning": "to invent"
+      "meaning": "to invent",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "återfinna",
@@ -956,7 +1024,8 @@
       "passive_past": "återfanns",
       "pattern": "i-a-u",
       "frequency": "medium",
-      "meaning": "to find again"
+      "meaning": "to find again",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "förbinda",
@@ -970,7 +1039,8 @@
       "passive_past": "förbands",
       "pattern": "i-a-u",
       "frequency": "medium",
-      "meaning": "to bandage, connect"
+      "meaning": "to bandage, connect",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "övervinna",
@@ -984,7 +1054,8 @@
       "passive_past": "övervanns",
       "pattern": "i-a-u",
       "frequency": "medium",
-      "meaning": "to overcome"
+      "meaning": "to overcome",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "stinka",
@@ -998,7 +1069,8 @@
       "passive_past": "stanks",
       "pattern": "i-a-u",
       "frequency": "low",
-      "meaning": "to stink"
+      "meaning": "to stink",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "slinka",
@@ -1012,7 +1084,8 @@
       "passive_past": "slanks",
       "pattern": "i-a-u",
       "frequency": "low",
-      "meaning": "to slip"
+      "meaning": "to slip",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "brista",
@@ -1026,7 +1099,8 @@
       "passive_past": "brasts",
       "pattern": "i-a-u",
       "frequency": "medium",
-      "meaning": "to burst"
+      "meaning": "to burst",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "spricka",
@@ -1040,7 +1114,8 @@
       "passive_past": "spracks",
       "pattern": "i-a-u",
       "frequency": "medium",
-      "meaning": "to crack"
+      "meaning": "to crack",
+      "group": "Verb group 4 (strong)"
     }
   ],
   "group_3_strong_y_o_u_pattern": [
@@ -1056,7 +1131,8 @@
       "passive_past": "flögs",
       "pattern": "y-ö-u",
       "frequency": "high",
-      "meaning": "to fly"
+      "meaning": "to fly",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "bryta",
@@ -1070,7 +1146,8 @@
       "passive_past": "bröts",
       "pattern": "y-ö-u",
       "frequency": "high",
-      "meaning": "to break"
+      "meaning": "to break",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "krypa",
@@ -1084,7 +1161,8 @@
       "passive_past": "kröps",
       "pattern": "y-ö-u",
       "frequency": "medium",
-      "meaning": "to crawl, creep"
+      "meaning": "to crawl, creep",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "smyga",
@@ -1098,7 +1176,8 @@
       "passive_past": "smögs",
       "pattern": "y-ö-u",
       "frequency": "medium",
-      "meaning": "to sneak"
+      "meaning": "to sneak",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "frysa",
@@ -1112,7 +1191,8 @@
       "passive_past": "fröss",
       "pattern": "y-ö-u",
       "frequency": "high",
-      "meaning": "to freeze"
+      "meaning": "to freeze",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "ljuga",
@@ -1126,7 +1206,8 @@
       "passive_past": "ljögs",
       "pattern": "y-ö-u",
       "frequency": "medium",
-      "meaning": "to lie (tell untruth)"
+      "meaning": "to lie (tell untruth)",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "nysa",
@@ -1140,7 +1221,8 @@
       "passive_past": "nöss",
       "pattern": "y-ö-u",
       "frequency": "low",
-      "meaning": "to sneeze"
+      "meaning": "to sneeze",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "sjuda",
@@ -1154,7 +1236,8 @@
       "passive_past": "sjöds",
       "pattern": "y-ö-u",
       "frequency": "low",
-      "meaning": "to boil, seethe"
+      "meaning": "to boil, seethe",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "knyta",
@@ -1168,7 +1251,8 @@
       "passive_past": "knöts",
       "pattern": "y-ö-u",
       "frequency": "medium",
-      "meaning": "to tie"
+      "meaning": "to tie",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "skjuta",
@@ -1182,7 +1266,8 @@
       "passive_past": "sköts",
       "pattern": "y-ö-u",
       "frequency": "high",
-      "meaning": "to shoot"
+      "meaning": "to shoot",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "bjuda",
@@ -1196,7 +1281,8 @@
       "passive_past": "björds",
       "pattern": "y-ö-u",
       "frequency": "high",
-      "meaning": "to offer, invite"
+      "meaning": "to offer, invite",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "sluta",
@@ -1210,7 +1296,8 @@
       "passive_past": "slöts",
       "pattern": "y-ö-u",
       "frequency": "very_high",
-      "meaning": "to close, end"
+      "meaning": "to close, end",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "snyta",
@@ -1224,7 +1311,8 @@
       "passive_past": "snöts",
       "pattern": "y-ö-u",
       "frequency": "low",
-      "meaning": "to blow one's nose"
+      "meaning": "to blow one's nose",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "duga",
@@ -1238,7 +1326,8 @@
       "passive_past": "dögs",
       "pattern": "y-ö-u",
       "frequency": "medium",
-      "meaning": "to be good enough"
+      "meaning": "to be good enough",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "gjuta",
@@ -1252,7 +1341,8 @@
       "passive_past": "göts",
       "pattern": "y-ö-u",
       "frequency": "medium",
-      "meaning": "to cast, pour"
+      "meaning": "to cast, pour",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "stryka",
@@ -1266,7 +1356,8 @@
       "passive_past": "ströks",
       "pattern": "y-ö-u",
       "frequency": "medium",
-      "meaning": "to iron; stroke"
+      "meaning": "to iron; stroke",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "krusa",
@@ -1280,7 +1371,8 @@
       "passive_past": "kröstes",
       "pattern": "y-ö-u",
       "frequency": "low",
-      "meaning": "to curl"
+      "meaning": "to curl",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "lyda",
@@ -1294,7 +1386,8 @@
       "passive_past": "löds",
       "pattern": "y-ö-u",
       "frequency": "medium",
-      "meaning": "to obey"
+      "meaning": "to obey",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "flyta",
@@ -1308,7 +1401,8 @@
       "passive_past": "flöts",
       "pattern": "y-ö-u",
       "frequency": "medium",
-      "meaning": "to float"
+      "meaning": "to float",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "nypa",
@@ -1322,7 +1416,8 @@
       "passive_past": "nöps",
       "pattern": "y-ö-u",
       "frequency": "low",
-      "meaning": "to pinch"
+      "meaning": "to pinch",
+      "group": "Verb group 4 (strong)"
     }
   ],
   "group_3_strong_a_patterns": [
@@ -1338,7 +1433,8 @@
       "passive_past": "bars",
       "pattern": "ä-a-u",
       "frequency": "very_high",
-      "meaning": "to carry, bear"
+      "meaning": "to carry, bear",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "stjäla",
@@ -1352,7 +1448,8 @@
       "passive_past": "stals",
       "pattern": "ä-a-u",
       "frequency": "medium",
-      "meaning": "to steal"
+      "meaning": "to steal",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "skära",
@@ -1366,7 +1463,8 @@
       "passive_past": "skars",
       "pattern": "ä-a-u",
       "frequency": "high",
-      "meaning": "to cut"
+      "meaning": "to cut",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "svära",
@@ -1380,7 +1478,8 @@
       "passive_past": "svors",
       "pattern": "ä-o-u",
       "frequency": "medium",
-      "meaning": "to swear"
+      "meaning": "to swear",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "dra",
@@ -1394,7 +1493,8 @@
       "passive_past": "drogs",
       "pattern": "a-o-a",
       "frequency": "very_high",
-      "meaning": "to pull, draw"
+      "meaning": "to pull, draw",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "fara",
@@ -1408,7 +1508,8 @@
       "passive_past": "fors",
       "pattern": "a-o-a",
       "frequency": "high",
-      "meaning": "to travel, go"
+      "meaning": "to travel, go",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "ta",
@@ -1422,7 +1523,8 @@
       "passive_past": "tordes",
       "pattern": "a-o-o",
       "frequency": "low",
-      "meaning": "to dare (archaic: töras)"
+      "meaning": "to dare (archaic: töras)",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "slå",
@@ -1436,7 +1538,8 @@
       "passive_past": "slogs",
       "pattern": "å-o-a",
       "frequency": "high",
-      "meaning": "to hit"
+      "meaning": "to hit",
+      "group": "Verb group 3 (strong)"
     }
   ],
   "group_3_strong_e_patterns": [
@@ -1452,7 +1555,8 @@
       "passive_past": "bads",
       "pattern": "e-a-e",
       "frequency": "medium",
-      "meaning": "to pray, beg"
+      "meaning": "to pray, beg",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "steka",
@@ -1466,7 +1570,8 @@
       "passive_past": "stektes",
       "pattern": "regular_group2",
       "frequency": "medium",
-      "meaning": "to fry"
+      "meaning": "to fry",
+      "group": "Verb group 3 (strong)"
     }
   ],
   "group_3_strong_u_patterns": [
@@ -1482,7 +1587,8 @@
       "passive_past": "sögs",
       "pattern": "u-ö-u",
       "frequency": "medium",
-      "meaning": "to suck"
+      "meaning": "to suck",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "ljuga",
@@ -1496,7 +1602,8 @@
       "passive_past": "ljögs",
       "pattern": "u-ö-u",
       "frequency": "medium",
-      "meaning": "to lie (untruth)"
+      "meaning": "to lie (untruth)",
+      "group": "Verb group 3 (strong)"
     }
   ],
   "group_3_additional_strong": [
@@ -1512,7 +1619,8 @@
       "passive_past": "fölls",
       "pattern": "a-ö-a",
       "frequency": "very_high",
-      "meaning": "to fall"
+      "meaning": "to fall",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "hålla",
@@ -1526,7 +1634,8 @@
       "passive_past": "hölls",
       "pattern": "å-ö-å",
       "frequency": "very_high",
-      "meaning": "to hold"
+      "meaning": "to hold",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "låta",
@@ -1540,7 +1649,8 @@
       "passive_past": "läts",
       "pattern": "å-ä-å",
       "frequency": "very_high",
-      "meaning": "to let, sound"
+      "meaning": "to let, sound",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "le",
@@ -1554,7 +1664,8 @@
       "passive_past": "logs",
       "pattern": "e-o-e",
       "frequency": "high",
-      "meaning": "to smile"
+      "meaning": "to smile",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "driva",
@@ -1568,7 +1679,8 @@
       "passive_past": "drevs",
       "pattern": "i-e-i",
       "frequency": "high",
-      "meaning": "to drive, drift"
+      "meaning": "to drive, drift",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "gnida",
@@ -1582,7 +1694,8 @@
       "passive_past": "gneds",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to rub"
+      "meaning": "to rub",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "kliva",
@@ -1596,7 +1709,8 @@
       "passive_past": "klevs",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to climb, step"
+      "meaning": "to climb, step",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "nita",
@@ -1610,7 +1724,8 @@
       "passive_past": "nets",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to rivet"
+      "meaning": "to rivet",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "skina",
@@ -1624,7 +1739,8 @@
       "passive_past": "skens",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to shine"
+      "meaning": "to shine",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "skita",
@@ -1638,7 +1754,8 @@
       "passive_past": "skets",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to defecate"
+      "meaning": "to defecate",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "vrida",
@@ -1652,7 +1769,8 @@
       "passive_past": "vreds",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to twist, turn"
+      "meaning": "to twist, turn",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "fly",
@@ -1666,7 +1784,8 @@
       "passive_past": "flyddes",
       "pattern": "y-y-y",
       "frequency": "medium",
-      "meaning": "to flee"
+      "meaning": "to flee",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "ny",
@@ -1680,7 +1799,8 @@
       "passive_past": "nöggs",
       "pattern": "y-ö-y",
       "frequency": "low",
-      "meaning": "to renew"
+      "meaning": "to renew",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "hänga",
@@ -1694,7 +1814,8 @@
       "passive_past": "hängdes",
       "pattern": "mixed",
       "frequency": "high",
-      "meaning": "to hang"
+      "meaning": "to hang",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "gråta",
@@ -1708,7 +1829,8 @@
       "passive_past": "gräts",
       "pattern": "å-ä-å",
       "frequency": "high",
-      "meaning": "to cry"
+      "meaning": "to cry",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "sova",
@@ -1722,7 +1844,8 @@
       "passive_past": "sovs",
       "pattern": "o-o-o",
       "frequency": "very_high",
-      "meaning": "to sleep"
+      "meaning": "to sleep",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "frysa",
@@ -1736,7 +1859,8 @@
       "passive_past": "fröss",
       "pattern": "y-ö-u",
       "frequency": "high",
-      "meaning": "to freeze"
+      "meaning": "to freeze",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "heta",
@@ -1750,7 +1874,8 @@
       "passive_past": "hettes",
       "pattern": "e-e-e",
       "frequency": "very_high",
-      "meaning": "to be called"
+      "meaning": "to be called",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "leva",
@@ -1764,7 +1889,8 @@
       "passive_past": "levdes",
       "pattern": "regular_group2",
       "frequency": "very_high",
-      "meaning": "to live"
+      "meaning": "to live",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "skjuta",
@@ -1778,7 +1904,8 @@
       "passive_past": "sköts",
       "pattern": "u-ö-u",
       "frequency": "high",
-      "meaning": "to shoot"
+      "meaning": "to shoot",
+      "group": "Verb group 3 (strong)"
     }
   ],
   "compound_verbs": [
@@ -1794,7 +1921,8 @@
       "passive_past": "undergicks",
       "pattern": "compound_gå",
       "frequency": "medium",
-      "meaning": "to undergo"
+      "meaning": "to undergo",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "ingå",
@@ -1808,7 +1936,8 @@
       "passive_past": "ingicks",
       "pattern": "compound_gå",
       "frequency": "high",
-      "meaning": "to be included"
+      "meaning": "to be included",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "utgå",
@@ -1822,7 +1951,8 @@
       "passive_past": "utgicks",
       "pattern": "compound_gå",
       "frequency": "medium",
-      "meaning": "to be issued"
+      "meaning": "to be issued",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "framgå",
@@ -1836,7 +1966,8 @@
       "passive_past": "framgicks",
       "pattern": "compound_gå",
       "frequency": "high",
-      "meaning": "to appear, be evident"
+      "meaning": "to appear, be evident",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "förstå",
@@ -1850,7 +1981,8 @@
       "passive_past": "förstods",
       "pattern": "compound_stå",
       "frequency": "very_high",
-      "meaning": "to understand"
+      "meaning": "to understand",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "uppstå",
@@ -1864,7 +1996,8 @@
       "passive_past": "uppstods",
       "pattern": "compound_stå",
       "frequency": "high",
-      "meaning": "to arise"
+      "meaning": "to arise",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "bestå",
@@ -1878,7 +2011,8 @@
       "passive_past": "bestods",
       "pattern": "compound_stå",
       "frequency": "high",
-      "meaning": "to consist"
+      "meaning": "to consist",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "återstå",
@@ -1892,7 +2026,8 @@
       "passive_past": "återstods",
       "pattern": "compound_stå",
       "frequency": "medium",
-      "meaning": "to remain"
+      "meaning": "to remain",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "ankomma",
@@ -1906,7 +2041,8 @@
       "passive_past": "ankoms",
       "pattern": "compound_komma",
       "frequency": "medium",
-      "meaning": "to arrive"
+      "meaning": "to arrive",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "överkomma",
@@ -1920,7 +2056,8 @@
       "passive_past": "överkoms",
       "pattern": "compound_komma",
       "frequency": "medium",
-      "meaning": "to afford"
+      "meaning": "to afford",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "anfalla",
@@ -1934,7 +2071,8 @@
       "passive_past": "anfölls",
       "pattern": "compound_falla",
       "frequency": "medium",
-      "meaning": "to attack"
+      "meaning": "to attack",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "infalla",
@@ -1948,7 +2086,8 @@
       "passive_past": "införlls",
       "pattern": "compound_falla",
       "frequency": "medium",
-      "meaning": "to occur"
+      "meaning": "to occur",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "tillfalla",
@@ -1962,7 +2101,8 @@
       "passive_past": "tillfölls",
       "pattern": "compound_falla",
       "frequency": "medium",
-      "meaning": "to fall to"
+      "meaning": "to fall to",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "innehålla",
@@ -1976,7 +2116,8 @@
       "passive_past": "innehölls",
       "pattern": "compound_hålla",
       "frequency": "high",
-      "meaning": "to contain"
+      "meaning": "to contain",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "uppehålla",
@@ -1990,7 +2131,8 @@
       "passive_past": "uppehölls",
       "pattern": "compound_hålla",
       "frequency": "medium",
-      "meaning": "to maintain"
+      "meaning": "to maintain",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "underhålla",
@@ -2004,7 +2146,8 @@
       "passive_past": "underhölls",
       "pattern": "compound_hålla",
       "frequency": "high",
-      "meaning": "to maintain, entertain"
+      "meaning": "to maintain, entertain",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "undandra",
@@ -2018,7 +2161,8 @@
       "passive_past": "undandrogs",
       "pattern": "compound_dra",
       "frequency": "medium",
-      "meaning": "to withhold"
+      "meaning": "to withhold",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "avdra",
@@ -2032,7 +2176,8 @@
       "passive_past": "avdrogs",
       "pattern": "compound_dra",
       "frequency": "medium",
-      "meaning": "to deduct"
+      "meaning": "to deduct",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "erfara",
@@ -2046,7 +2191,8 @@
       "passive_past": "erfors",
       "pattern": "compound_fara",
       "frequency": "high",
-      "meaning": "to experience"
+      "meaning": "to experience",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "frambära",
@@ -2060,7 +2206,8 @@
       "passive_past": "frambars",
       "pattern": "compound_bära",
       "frequency": "low",
-      "meaning": "to present"
+      "meaning": "to present",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "angripa",
@@ -2074,7 +2221,8 @@
       "passive_past": "angreps",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to attack"
+      "meaning": "to attack",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "begripa",
@@ -2088,7 +2236,8 @@
       "passive_past": "begreps",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to understand"
+      "meaning": "to understand",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "avbita",
@@ -2102,7 +2251,8 @@
       "passive_past": "avbets",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to bite off"
+      "meaning": "to bite off",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "påbinda",
@@ -2116,7 +2266,8 @@
       "passive_past": "påbands",
       "pattern": "i-a-u",
       "frequency": "low",
-      "meaning": "to impose"
+      "meaning": "to impose",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "sammanfinna",
@@ -2130,7 +2281,8 @@
       "passive_past": "sammanfanns",
       "pattern": "i-a-u",
       "frequency": "low",
-      "meaning": "to find together"
+      "meaning": "to find together",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "sjunga",
@@ -2144,7 +2296,8 @@
       "passive_past": "sjöngs",
       "pattern": "u-ö-u",
       "frequency": "high",
-      "meaning": "to sing"
+      "meaning": "to sing",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "sjunka",
@@ -2158,7 +2311,8 @@
       "passive_past": "sjönks",
       "pattern": "u-ö-u",
       "frequency": "medium",
-      "meaning": "to sink"
+      "meaning": "to sink",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "svälja",
@@ -2172,7 +2326,8 @@
       "passive_past": "svaldes",
       "pattern": "ä-a-a",
       "frequency": "medium",
-      "meaning": "to swallow"
+      "meaning": "to swallow",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "gälla",
@@ -2186,7 +2341,8 @@
       "passive_past": "gälldes",
       "pattern": "ä-ä-ä",
       "frequency": "very_high",
-      "meaning": "to apply, be valid"
+      "meaning": "to apply, be valid",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "välja",
@@ -2200,7 +2356,8 @@
       "passive_past": "valdes",
       "pattern": "ä-a-a",
       "frequency": "very_high",
-      "meaning": "to choose"
+      "meaning": "to choose",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "sälja",
@@ -2214,7 +2371,8 @@
       "passive_past": "såldes",
       "pattern": "ä-å-å",
       "frequency": "very_high",
-      "meaning": "to sell"
+      "meaning": "to sell",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "tänka",
@@ -2228,7 +2386,8 @@
       "passive_past": "tänktes",
       "pattern": "regular_group2",
       "frequency": "very_high",
-      "meaning": "to think"
+      "meaning": "to think",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "känna",
@@ -2242,7 +2401,8 @@
       "passive_past": "kändes",
       "pattern": "regular_group2",
       "frequency": "very_high",
-      "meaning": "to feel, know"
+      "meaning": "to feel, know",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "lägga",
@@ -2256,7 +2416,8 @@
       "passive_past": "lades",
       "pattern": "ä-a-a",
       "frequency": "very_high",
-      "meaning": "to lay, put"
+      "meaning": "to lay, put",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "sätta",
@@ -2270,7 +2431,8 @@
       "passive_past": "sattes",
       "pattern": "ä-a-a",
       "frequency": "very_high",
-      "meaning": "to set, put"
+      "meaning": "to set, put",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "ställa",
@@ -2284,7 +2446,8 @@
       "passive_past": "ställdes",
       "pattern": "regular_group2",
       "frequency": "very_high",
-      "meaning": "to place, set"
+      "meaning": "to place, set",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "tro",
@@ -2298,7 +2461,8 @@
       "passive_past": "troddes",
       "pattern": "o-o-o",
       "frequency": "very_high",
-      "meaning": "to believe"
+      "meaning": "to believe",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "bo",
@@ -2312,7 +2476,8 @@
       "passive_past": "boddes",
       "pattern": "o-o-o",
       "frequency": "very_high",
-      "meaning": "to live, reside"
+      "meaning": "to live, reside",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "sy",
@@ -2326,7 +2491,8 @@
       "passive_past": "syddes",
       "pattern": "y-y-y",
       "frequency": "medium",
-      "meaning": "to sew"
+      "meaning": "to sew",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "bry",
@@ -2340,7 +2506,8 @@
       "passive_past": "bryddes",
       "pattern": "y-y-y",
       "frequency": "high",
-      "meaning": "to care, bother"
+      "meaning": "to care, bother",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "nå",
@@ -2354,7 +2521,8 @@
       "passive_past": "nåddes",
       "pattern": "å-å-å",
       "frequency": "high",
-      "meaning": "to reach"
+      "meaning": "to reach",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "klä",
@@ -2368,7 +2536,8 @@
       "passive_past": "kläddes",
       "pattern": "ä-ä-ä",
       "frequency": "high",
-      "meaning": "to dress"
+      "meaning": "to dress",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "slå",
@@ -2382,7 +2551,8 @@
       "passive_past": "slogs",
       "pattern": "å-o-a",
       "frequency": "high",
-      "meaning": "to hit"
+      "meaning": "to hit",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "möta",
@@ -2396,7 +2566,8 @@
       "passive_past": "möttes",
       "pattern": "ö-ö-ö",
       "frequency": "very_high",
-      "meaning": "to meet"
+      "meaning": "to meet",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "följa",
@@ -2410,7 +2581,8 @@
       "passive_past": "följdes",
       "pattern": "regular_group2",
       "frequency": "very_high",
-      "meaning": "to follow"
+      "meaning": "to follow",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "dölja",
@@ -2424,7 +2596,8 @@
       "passive_past": "doldes",
       "pattern": "ö-o-o",
       "frequency": "medium",
-      "meaning": "to hide"
+      "meaning": "to hide",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "förlora",
@@ -2438,7 +2611,8 @@
       "passive_past": "förlorades",
       "pattern": "regular_group1",
       "frequency": "high",
-      "meaning": "to lose"
+      "meaning": "to lose",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "lida",
@@ -2452,7 +2626,8 @@
       "passive_past": "leds",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to suffer"
+      "meaning": "to suffer",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "trivas",
@@ -2466,7 +2641,8 @@
       "passive_past": null,
       "pattern": "deponent",
       "frequency": "high",
-      "meaning": "to enjoy oneself"
+      "meaning": "to enjoy oneself",
+      "group": "Deponent verb"
     },
     {
       "infinitive": "minnas",
@@ -2480,7 +2656,8 @@
       "passive_past": null,
       "pattern": "deponent",
       "frequency": "high",
-      "meaning": "to remember"
+      "meaning": "to remember",
+      "group": "Deponent verb"
     },
     {
       "infinitive": "andas",
@@ -2494,7 +2671,8 @@
       "passive_past": null,
       "pattern": "deponent",
       "frequency": "high",
-      "meaning": "to breathe"
+      "meaning": "to breathe",
+      "group": "Deponent verb"
     },
     {
       "infinitive": "hoppas",
@@ -2508,7 +2686,8 @@
       "passive_past": null,
       "pattern": "deponent",
       "frequency": "very_high",
-      "meaning": "to hope"
+      "meaning": "to hope",
+      "group": "Deponent verb"
     }
   ],
   "group2_special_cases": [
@@ -2524,7 +2703,8 @@
       "passive_past": "köptes",
       "pattern": "group2_special",
       "frequency": "very_high",
-      "meaning": "to buy"
+      "meaning": "to buy",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "skicka",
@@ -2538,7 +2718,8 @@
       "passive_past": "skickades",
       "pattern": "regular_group1",
       "frequency": "high",
-      "meaning": "to send"
+      "meaning": "to send",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "glömma",
@@ -2552,7 +2733,8 @@
       "passive_past": "glömdes",
       "pattern": "group2_special",
       "frequency": "high",
-      "meaning": "to forget"
+      "meaning": "to forget",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "hämta",
@@ -2566,7 +2748,8 @@
       "passive_past": "hämtades",
       "pattern": "regular_group1",
       "frequency": "high",
-      "meaning": "to fetch"
+      "meaning": "to fetch",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "tömma",
@@ -2580,7 +2763,8 @@
       "passive_past": "tömdes",
       "pattern": "group2_special",
       "frequency": "medium",
-      "meaning": "to empty"
+      "meaning": "to empty",
+      "group": "Verb group 3 (strong)"
     }
   ],
   "final_additions": [
@@ -2596,7 +2780,8 @@
       "passive_past": "avskrevs",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to write off"
+      "meaning": "to write off",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "tillskriva",
@@ -2610,7 +2795,8 @@
       "passive_past": "tillskrevs",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to attribute to"
+      "meaning": "to attribute to",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "omskriva",
@@ -2624,7 +2810,8 @@
       "passive_past": "omskrevs",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to rewrite"
+      "meaning": "to rewrite",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "uppstiga",
@@ -2638,7 +2825,8 @@
       "passive_past": "uppstegs",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to ascend"
+      "meaning": "to ascend",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "nedstiga",
@@ -2652,7 +2840,8 @@
       "passive_past": "nedstegs",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to descend"
+      "meaning": "to descend",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "avstiga",
@@ -2666,7 +2855,8 @@
       "passive_past": "avstegs",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to dismount"
+      "meaning": "to dismount",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "uppbinda",
@@ -2680,7 +2870,8 @@
       "passive_past": "uppbands",
       "pattern": "i-a-u",
       "frequency": "low",
-      "meaning": "to tie up"
+      "meaning": "to tie up",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "avbinda",
@@ -2694,7 +2885,8 @@
       "passive_past": "avbands",
       "pattern": "i-a-u",
       "frequency": "low",
-      "meaning": "to untie"
+      "meaning": "to untie",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "ispringa",
@@ -2708,7 +2900,8 @@
       "passive_past": "isprangs",
       "pattern": "i-a-u",
       "frequency": "low",
-      "meaning": "to run into pieces"
+      "meaning": "to run into pieces",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "utspringa",
@@ -2722,7 +2915,8 @@
       "passive_past": "utsprangs",
       "pattern": "i-a-u",
       "frequency": "low",
-      "meaning": "to spring out"
+      "meaning": "to spring out",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "avbryta",
@@ -2736,7 +2930,8 @@
       "passive_past": "avbröts",
       "pattern": "y-ö-u",
       "frequency": "high",
-      "meaning": "to interrupt"
+      "meaning": "to interrupt",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "utbryta",
@@ -2750,7 +2945,8 @@
       "passive_past": "utbröts",
       "pattern": "y-ö-u",
       "frequency": "medium",
-      "meaning": "to break out"
+      "meaning": "to break out",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "inbryta",
@@ -2764,7 +2960,8 @@
       "passive_past": "inbröts",
       "pattern": "y-ö-u",
       "frequency": "medium",
-      "meaning": "to break in"
+      "meaning": "to break in",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "uppflyga",
@@ -2778,7 +2975,8 @@
       "passive_past": "uppflögs",
       "pattern": "y-ö-u",
       "frequency": "low",
-      "meaning": "to fly up"
+      "meaning": "to fly up",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "bortflyga",
@@ -2792,7 +2990,8 @@
       "passive_past": "bortflögs",
       "pattern": "y-ö-u",
       "frequency": "low",
-      "meaning": "to fly away"
+      "meaning": "to fly away",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "avskära",
@@ -2806,7 +3005,8 @@
       "passive_past": "avskars",
       "pattern": "ä-a-u",
       "frequency": "medium",
-      "meaning": "to cut off"
+      "meaning": "to cut off",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "uppskära",
@@ -2820,7 +3020,8 @@
       "passive_past": "uppskars",
       "pattern": "ä-a-u",
       "frequency": "low",
-      "meaning": "to cut up"
+      "meaning": "to cut up",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "uppslå",
@@ -2834,7 +3035,8 @@
       "passive_past": "uppslogs",
       "pattern": "å-o-a",
       "frequency": "medium",
-      "meaning": "to look up"
+      "meaning": "to look up",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "nedslå",
@@ -2848,7 +3050,8 @@
       "passive_past": "nedslogs",
       "pattern": "å-o-a",
       "frequency": "medium",
-      "meaning": "to strike down"
+      "meaning": "to strike down",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "utslå",
@@ -2862,7 +3065,8 @@
       "passive_past": "utslogs",
       "pattern": "å-o-a",
       "frequency": "medium",
-      "meaning": "to knock out"
+      "meaning": "to knock out",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "snika",
@@ -2876,7 +3080,8 @@
       "passive_past": "snektes",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to sneak"
+      "meaning": "to sneak",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "gnida",
@@ -2890,7 +3095,8 @@
       "passive_past": "gneds",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to rub"
+      "meaning": "to rub",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "prida",
@@ -2904,7 +3110,8 @@
       "passive_past": "preds",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to adorn"
+      "meaning": "to adorn",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "ryka",
@@ -2918,7 +3125,8 @@
       "passive_past": "röks",
       "pattern": "y-ö-y",
       "frequency": "low",
-      "meaning": "to smoke (intransitive)"
+      "meaning": "to smoke (intransitive)",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "hugga",
@@ -2932,7 +3140,8 @@
       "passive_past": "höggs",
       "pattern": "u-ö-u",
       "frequency": "medium",
-      "meaning": "to chop"
+      "meaning": "to chop",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "duga",
@@ -2946,7 +3155,8 @@
       "passive_past": "dögs",
       "pattern": "u-ö-u",
       "frequency": "medium",
-      "meaning": "to be good enough"
+      "meaning": "to be good enough",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "luta",
@@ -2960,7 +3170,8 @@
       "passive_past": "lutades",
       "pattern": "regular_group1",
       "frequency": "high",
-      "meaning": "to lean"
+      "meaning": "to lean",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "ryta",
@@ -2974,7 +3185,8 @@
       "passive_past": "röts",
       "pattern": "y-ö-u",
       "frequency": "low",
-      "meaning": "to roar"
+      "meaning": "to roar",
+      "group": "Verb group 4 (strong)"
     },
     {
       "infinitive": "töras",
@@ -2988,7 +3200,8 @@
       "passive_past": null,
       "pattern": "deponent",
       "frequency": "medium",
-      "meaning": "to dare"
+      "meaning": "to dare",
+      "group": "Deponent verb"
     },
     {
       "infinitive": "vågas",
@@ -3002,7 +3215,8 @@
       "passive_past": null,
       "pattern": "deponent",
       "frequency": "high",
-      "meaning": "to dare"
+      "meaning": "to dare",
+      "group": "Deponent verb"
     },
     {
       "infinitive": "synas",
@@ -3016,7 +3230,8 @@
       "passive_past": null,
       "pattern": "deponent",
       "frequency": "very_high",
-      "meaning": "to appear, seem"
+      "meaning": "to appear, seem",
+      "group": "Deponent verb"
     },
     {
       "infinitive": "höras",
@@ -3030,7 +3245,8 @@
       "passive_past": null,
       "pattern": "deponent",
       "frequency": "high",
-      "meaning": "to be heard"
+      "meaning": "to be heard",
+      "group": "Deponent verb"
     },
     {
       "infinitive": "kännas",
@@ -3044,7 +3260,8 @@
       "passive_past": null,
       "pattern": "deponent",
       "frequency": "very_high",
-      "meaning": "to feel (seem)"
+      "meaning": "to feel (seem)",
+      "group": "Deponent verb"
     },
     {
       "infinitive": "låtsas",
@@ -3058,7 +3275,8 @@
       "passive_past": null,
       "pattern": "deponent",
       "frequency": "high",
-      "meaning": "to pretend"
+      "meaning": "to pretend",
+      "group": "Deponent verb"
     },
     {
       "infinitive": "finnas",
@@ -3072,7 +3290,8 @@
       "passive_past": null,
       "pattern": "deponent",
       "frequency": "very_high",
-      "meaning": "to exist"
+      "meaning": "to exist",
+      "group": "Deponent verb"
     },
     {
       "infinitive": "bedra",
@@ -3086,7 +3305,8 @@
       "passive_past": "bedrogs",
       "pattern": "a-o-a",
       "frequency": "low",
-      "meaning": "to deceive"
+      "meaning": "to deceive",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "föredra",
@@ -3100,7 +3320,8 @@
       "passive_past": "föredrogs",
       "pattern": "a-o-a",
       "frequency": "high",
-      "meaning": "to prefer"
+      "meaning": "to prefer",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "företaga",
@@ -3114,7 +3335,8 @@
       "passive_past": "företogs",
       "pattern": "a-o-a",
       "frequency": "medium",
-      "meaning": "to undertake"
+      "meaning": "to undertake",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "åta",
@@ -3128,7 +3350,8 @@
       "passive_past": "åtogs",
       "pattern": "a-o-a",
       "frequency": "medium",
-      "meaning": "to undertake"
+      "meaning": "to undertake",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "betaga",
@@ -3142,7 +3365,8 @@
       "passive_past": "betogs",
       "pattern": "a-o-a",
       "frequency": "low",
-      "meaning": "to captivate"
+      "meaning": "to captivate",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "blåsa",
@@ -3156,7 +3380,8 @@
       "passive_past": "blåstes",
       "pattern": "å-å-å",
       "frequency": "medium",
-      "meaning": "to blow"
+      "meaning": "to blow",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "mala",
@@ -3170,7 +3395,8 @@
       "passive_past": "maldes",
       "pattern": "a-o-a",
       "frequency": "low",
-      "meaning": "to grind"
+      "meaning": "to grind",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "rycka",
@@ -3184,7 +3410,8 @@
       "passive_past": "rycktes",
       "pattern": "regular_group2",
       "frequency": "medium",
-      "meaning": "to pull, jerk"
+      "meaning": "to pull, jerk",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "räcka",
@@ -3198,7 +3425,8 @@
       "passive_past": "räcktes",
       "pattern": "regular_group2",
       "frequency": "high",
-      "meaning": "to reach, suffice"
+      "meaning": "to reach, suffice",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "täcka",
@@ -3212,7 +3440,8 @@
       "passive_past": "täcktes",
       "pattern": "regular_group2",
       "frequency": "medium",
-      "meaning": "to cover"
+      "meaning": "to cover",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "väcka",
@@ -3226,7 +3455,8 @@
       "passive_past": "väcktes",
       "pattern": "regular_group2",
       "frequency": "high",
-      "meaning": "to wake"
+      "meaning": "to wake",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "skrika",
@@ -3240,7 +3470,8 @@
       "passive_past": "skreks",
       "pattern": "i-e-i",
       "frequency": "medium",
-      "meaning": "to scream"
+      "meaning": "to scream",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "gnida",
@@ -3254,7 +3485,8 @@
       "passive_past": "gneds",
       "pattern": "i-e-i",
       "frequency": "low",
-      "meaning": "to rub"
+      "meaning": "to rub",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "äga",
@@ -3268,7 +3500,8 @@
       "passive_past": "ägdes",
       "pattern": "regular_group2",
       "frequency": "high",
-      "meaning": "to own"
+      "meaning": "to own",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "visa",
@@ -3282,7 +3515,8 @@
       "passive_past": "visades",
       "pattern": "regular_group1",
       "frequency": "very_high",
-      "meaning": "to show"
+      "meaning": "to show",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "behöva",
@@ -3296,7 +3530,8 @@
       "passive_past": "behövdes",
       "pattern": "regular_group2",
       "frequency": "very_high",
-      "meaning": "to need"
+      "meaning": "to need",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "börja",
@@ -3310,7 +3545,8 @@
       "passive_past": "bör​jades",
       "pattern": "regular_group1",
       "frequency": "very_high",
-      "meaning": "to begin"
+      "meaning": "to begin",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "sluta",
@@ -3324,7 +3560,8 @@
       "passive_past": "slutades",
       "pattern": "regular_group1",
       "frequency": "very_high",
-      "meaning": "to stop, end"
+      "meaning": "to stop, end",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "försöka",
@@ -3338,7 +3575,8 @@
       "passive_past": "försöktes",
       "pattern": "regular_group2",
       "frequency": "very_high",
-      "meaning": "to try"
+      "meaning": "to try",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "använda",
@@ -3352,7 +3590,8 @@
       "passive_past": "användes",
       "pattern": "regular_group2",
       "frequency": "very_high",
-      "meaning": "to use"
+      "meaning": "to use",
+      "group": "Verb group 3 (strong)"
     }
   ],
   "last_additions": [
@@ -3368,7 +3607,8 @@
       "passive_past": "råkades",
       "pattern": "regular_group1",
       "frequency": "high",
-      "meaning": "to happen to"
+      "meaning": "to happen to",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "tycka",
@@ -3382,7 +3622,8 @@
       "passive_past": "tycktes",
       "pattern": "regular_group2",
       "frequency": "very_high",
-      "meaning": "to think, like"
+      "meaning": "to think, like",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "kasta",
@@ -3396,7 +3637,8 @@
       "passive_past": "kastades",
       "pattern": "regular_group1",
       "frequency": "high",
-      "meaning": "to throw"
+      "meaning": "to throw",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "berätta",
@@ -3410,7 +3652,8 @@
       "passive_past": "berättades",
       "pattern": "regular_group1",
       "frequency": "very_high",
-      "meaning": "to tell"
+      "meaning": "to tell",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "dela",
@@ -3424,7 +3667,8 @@
       "passive_past": "delades",
       "pattern": "regular_group1",
       "frequency": "high",
-      "meaning": "to share, divide"
+      "meaning": "to share, divide",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "bygga",
@@ -3438,7 +3682,8 @@
       "passive_past": "byggdes",
       "pattern": "regular_group2",
       "frequency": "high",
-      "meaning": "to build"
+      "meaning": "to build",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "fråga",
@@ -3452,7 +3697,8 @@
       "passive_past": "frågades",
       "pattern": "regular_group1",
       "frequency": "very_high",
-      "meaning": "to ask"
+      "meaning": "to ask",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "svara",
@@ -3466,7 +3712,8 @@
       "passive_past": "svarades",
       "pattern": "regular_group1",
       "frequency": "very_high",
-      "meaning": "to answer"
+      "meaning": "to answer",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "kalla",
@@ -3480,7 +3727,8 @@
       "passive_past": "kallades",
       "pattern": "regular_group1",
       "frequency": "high",
-      "meaning": "to call"
+      "meaning": "to call",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "betala",
@@ -3494,7 +3742,8 @@
       "passive_past": "betalades",
       "pattern": "regular_group1",
       "frequency": "high",
-      "meaning": "to pay"
+      "meaning": "to pay",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "öppna",
@@ -3508,7 +3757,8 @@
       "passive_past": "öppnades",
       "pattern": "regular_group1",
       "frequency": "very_high",
-      "meaning": "to open"
+      "meaning": "to open",
+      "group": "Verb group 3 (strong)"
     },
     {
       "infinitive": "stänga",
@@ -3522,7 +3772,8 @@
       "passive_past": "stängdes",
       "pattern": "regular_group2",
       "frequency": "high",
-      "meaning": "to close"
+      "meaning": "to close",
+      "group": "Verb group 3 (strong)"
     }
   ]
 }
